@@ -1,0 +1,846 @@
+{
+    "config": {
+      "title": "Is this a real English word?",
+      "shuffleQuestions": true,
+      "timeLimit": null,
+      "passingScore": 70
+    },
+    "questions": [
+      {
+        "word": "innarian",
+        "isReal": false
+      },
+      {
+        "word": "beautiful",
+        "isReal": true
+      },
+      {
+        "word": "flurble",
+        "isReal": false
+      },
+      {
+        "word": "knowledge",
+        "isReal": true
+      },
+      {
+        "word": "blompfest",
+        "isReal": false
+      },
+      {
+        "word": "magnificent",
+        "isReal": true
+      },
+      {
+        "word": "squibbly",
+        "isReal": false
+      },
+      {
+        "word": "opportunity",
+        "isReal": true
+      },
+      {
+        "word": "frizzleton",
+        "isReal": false
+      },
+      {
+        "word": "extraordinary",
+        "isReal": true
+      },
+      {
+        "word": "blunderfump",
+        "isReal": false
+      },
+      {
+        "word": "delicious",
+        "isReal": true
+      },
+      {
+        "word": "snorklewiff",
+        "isReal": false
+      },
+      {
+        "word": "important",
+        "isReal": true
+      },
+      {
+        "word": "gribbleton",
+        "isReal": false
+      },
+      {
+        "word": "celebration",
+        "isReal": true
+      },
+      {
+        "word": "flibbernaught",
+        "isReal": false
+      },
+      {
+        "word": "adventure",
+        "isReal": true
+      },
+      {
+        "word": "wobblethunk",
+        "isReal": false
+      },
+      {
+        "word": "creativity",
+        "isReal": true
+      },
+      {
+        "word": "splendiferous",
+        "isReal": false
+      },
+      {
+        "word": "happiness",
+        "isReal": true
+      },
+      {
+        "word": "binglewhoop",
+        "isReal": false
+      },
+      {
+        "word": "comfortable",
+        "isReal": true
+      },
+      {
+        "word": "quizzlebonk",
+        "isReal": false
+      },
+      {
+        "word": "amazing",
+        "isReal": true
+      },
+      {
+        "word": "flibbertigibbet",
+        "isReal": true
+      },
+      {
+        "word": "grumpleton",
+        "isReal": false
+      },
+      {
+        "word": "wonderful",
+        "isReal": true
+      },
+      {
+        "word": "snizzlebop",
+        "isReal": false
+      },
+      {
+        "word": "incredible",
+        "isReal": true
+      },
+      {
+        "word": "blitherington",
+        "isReal": false
+      },
+      {
+        "word": "fantastic",
+        "isReal": true
+      },
+      {
+        "word": "wigglesnort",
+        "isReal": false
+      },
+      {
+        "word": "excellent",
+        "isReal": true
+      },
+      {
+        "word": "fumblequack",
+        "isReal": false
+      },
+      {
+        "word": "brilliant",
+        "isReal": true
+      },
+      {
+        "word": "snurflebeast",
+        "isReal": false
+      },
+      {
+        "word": "outstanding",
+        "isReal": true
+      },
+      {
+        "word": "grizzlewonk",
+        "isReal": false
+      },
+      {
+        "word": "fascinating",
+        "isReal": true
+      },
+      {
+        "word": "blizzardflump",
+        "isReal": false
+      },
+      {
+        "word": "spectacular",
+        "isReal": true
+      },
+      {
+        "word": "twiddlesnoop",
+        "isReal": false
+      },
+      {
+        "word": "marvelous",
+        "isReal": true
+      },
+      {
+        "word": "grumblethwack",
+        "isReal": false
+      },
+      {
+        "word": "inspiring",
+        "isReal": true
+      },
+      {
+        "word": "fluffernutter",
+        "isReal": true
+      },
+      {
+        "word": "bumbershoot",
+        "isReal": true
+      },
+      {
+        "word": "whipplethorn",
+        "isReal": false
+      },
+      {
+        "word": "serendipity",
+        "isReal": true
+      },
+      {
+        "word": "snorklefinch",
+        "isReal": false
+      },
+      {
+        "word": "ephemeral",
+        "isReal": true
+      },
+      {
+        "word": "bligglethorp",
+        "isReal": false
+      },
+      {
+        "word": "perspicacious",
+        "isReal": true
+      },
+      {
+        "word": "flumbergast",
+        "isReal": false
+      },
+      {
+        "word": "ubiquitous",
+        "isReal": true
+      },
+      {
+        "word": "snizzlefritz",
+        "isReal": false
+      },
+      {
+        "word": "mellifluous",
+        "isReal": true
+      },
+      {
+        "word": "grumplebonk",
+        "isReal": false
+      },
+      {
+        "word": "quintessential",
+        "isReal": true
+      },
+      {
+        "word": "bingleflorp",
+        "isReal": false
+      },
+      {
+        "word": "magnanimous",
+        "isReal": true
+      },
+      {
+        "word": "snurflesnack",
+        "isReal": false
+      },
+      {
+        "word": "eloquent",
+        "isReal": true
+      },
+      {
+        "word": "grizzlesnap",
+        "isReal": false
+      },
+      {
+        "word": "sophisticated",
+        "isReal": true
+      },
+      {
+        "word": "blunderwhiff",
+        "isReal": false
+      },
+      {
+        "word": "phenomenal",
+        "isReal": true
+      },
+      {
+        "word": "snigglethunk",
+        "isReal": false
+      },
+      {
+        "word": "exquisite",
+        "isReal": true
+      },
+      {
+        "word": "fumblesnort",
+        "isReal": false
+      },
+      {
+        "word": "remarkable",
+        "isReal": true
+      },
+      {
+        "word": "grumblefizz",
+        "isReal": false
+      },
+      {
+        "word": "tremendous",
+        "isReal": true
+      },
+      {
+        "word": "snorkleplop",
+        "isReal": false
+      },
+      {
+        "word": "superb",
+        "isReal": true
+      },
+      {
+        "word": "bligglewonk",
+        "isReal": false
+      },
+      {
+        "word": "splendid",
+        "isReal": true
+      },
+      {
+        "word": "snurflebonk",
+        "isReal": false
+      },
+      {
+        "word": "gorgeous",
+        "isReal": true
+      },
+      {
+        "word": "grizzlethorp",
+        "isReal": false
+      },
+      {
+        "word": "stunning",
+        "isReal": true
+      },
+      {
+        "word": "blunderflop",
+        "isReal": false
+      },
+      {
+        "word": "breathtaking",
+        "isReal": true
+      },
+      {
+        "word": "snigglesnap",
+        "isReal": false
+      },
+      {
+        "word": "captivating",
+        "isReal": true
+      },
+      {
+        "word": "fumblethunk",
+        "isReal": false
+      },
+      {
+        "word": "enchanting",
+        "isReal": true
+      },
+      {
+        "word": "grumplesnort",
+        "isReal": false
+      },
+      {
+        "word": "mesmerizing",
+        "isReal": true
+      },
+      {
+        "word": "snorklewhiff",
+        "isReal": false
+      },
+      {
+        "word": "dazzling",
+        "isReal": true
+      },
+      {
+        "word": "bliggleplop",
+        "isReal": false
+      },
+      {
+        "word": "radiant",
+        "isReal": true
+      },
+      {
+        "word": "snurflethunk",
+        "isReal": false
+      },
+      {
+        "word": "luminous",
+        "isReal": true
+      },
+      {
+        "word": "grizzlefizz",
+        "isReal": false
+      },
+      {
+        "word": "scintillating",
+        "isReal": true
+      },
+      {
+        "word": "blunderthorp",
+        "isReal": false
+      },
+      {
+        "word": "resplendent",
+        "isReal": true
+      },
+      {
+        "word": "sniggleflop",
+        "isReal": false
+      },
+      {
+        "word": "effulgent",
+        "isReal": true
+      },
+      {
+        "word": "fumblefizz",
+        "isReal": false
+      },
+      {
+        "word": "incandescent",
+        "isReal": true
+      },
+      {
+        "word": "grumplethunk",
+        "isReal": false
+      },
+      {
+        "word": "iridescent",
+        "isReal": true
+      },
+      {
+        "word": "snorklethorp",
+        "isReal": false
+      },
+      {
+        "word": "opalescent",
+        "isReal": true
+      },
+      {
+        "word": "bligglesnort",
+        "isReal": false
+      },
+      {
+        "word": "pearlescent",
+        "isReal": true
+      },
+      {
+        "word": "snurflefizz",
+        "isReal": false
+      },
+      {
+        "word": "translucent",
+        "isReal": true
+      },
+      {
+        "word": "grizzlesnort",
+        "isReal": false
+      },
+      {
+        "word": "phosphorescent",
+        "isReal": true
+      },
+      {
+        "word": "blundersnap",
+        "isReal": false
+      },
+      {
+        "word": "fluorescent",
+        "isReal": true
+      },
+      {
+        "word": "snigglefizz",
+        "isReal": false
+      },
+      {
+        "word": "bioluminescent",
+        "isReal": true
+      },
+      {
+        "word": "fumblesnap",
+        "isReal": false
+      },
+      {
+        "word": "phosphorescent",
+        "isReal": true
+      },
+      {
+        "word": "grumplefizz",
+        "isReal": false
+      },
+      {
+        "word": "effervescent",
+        "isReal": true
+      },
+      {
+        "word": "snorklesnap",
+        "isReal": false
+      },
+      {
+        "word": "adolescent",
+        "isReal": true
+      },
+      {
+        "word": "bligglefizz",
+        "isReal": false
+      },
+      {
+        "word": "quiescent",
+        "isReal": true
+      },
+      {
+        "word": "snurflesnap",
+        "isReal": false
+      },
+      {
+        "word": "acquiescent",
+        "isReal": true
+      },
+      {
+        "word": "grizzleflop",
+        "isReal": false
+      },
+      {
+        "word": "tumescent",
+        "isReal": true
+      },
+      {
+        "word": "blunderfizz",
+        "isReal": false
+      },
+      {
+        "word": "senescent",
+        "isReal": true
+      },
+      {
+        "word": "snigglesnort",
+        "isReal": false
+      },
+      {
+        "word": "obsolescent",
+        "isReal": true
+      },
+      {
+        "word": "fumbleflop",
+        "isReal": false
+      },
+      {
+        "word": "pubescent",
+        "isReal": true
+      },
+      {
+        "word": "grumpleflop",
+        "isReal": false
+      },
+      {
+        "word": "incandescent",
+        "isReal": true
+      },
+      {
+        "word": "snorkleflop",
+        "isReal": false
+      },
+      {
+        "word": "convalescent",
+        "isReal": true
+      },
+      {
+        "word": "bliggleflop",
+        "isReal": false
+      },
+      {
+        "word": "arborescent",
+        "isReal": true
+      },
+      {
+        "word": "snurfleflop",
+        "isReal": false
+      },
+      {
+        "word": "putrescent",
+        "isReal": true
+      },
+      {
+        "word": "grizzleblop",
+        "isReal": false
+      },
+      {
+        "word": "turgescent",
+        "isReal": true
+      },
+      {
+        "word": "blunderblop",
+        "isReal": false
+      },
+      {
+        "word": "virescent",
+        "isReal": true
+      },
+      {
+        "word": "sniggleblop",
+        "isReal": false
+      },
+      {
+        "word": "flavescent",
+        "isReal": true
+      },
+      {
+        "word": "fumbleblop",
+        "isReal": false
+      },
+      {
+        "word": "rufescent",
+        "isReal": true
+      },
+      {
+        "word": "grumpleblop",
+        "isReal": false
+      },
+      {
+        "word": "albescent",
+        "isReal": true
+      },
+      {
+        "word": "snorkleblop",
+        "isReal": false
+      },
+      {
+        "word": "rubescent",
+        "isReal": true
+      },
+      {
+        "word": "bliggleblop",
+        "isReal": false
+      },
+      {
+        "word": "canescent",
+        "isReal": true
+      },
+      {
+        "word": "snurfleblop",
+        "isReal": false
+      },
+      {
+        "word": "nigrescent",
+        "isReal": true
+      },
+      {
+        "word": "grizzleglop",
+        "isReal": false
+      },
+      {
+        "word": "lactescent",
+        "isReal": true
+      },
+      {
+        "word": "blunderglop",
+        "isReal": false
+      },
+      {
+        "word": "spumescent",
+        "isReal": true
+      },
+      {
+        "word": "sniggleglop",
+        "isReal": false
+      },
+      {
+        "word": "lutescent",
+        "isReal": true
+      },
+      {
+        "word": "fumbleglop",
+        "isReal": false
+      },
+      {
+        "word": "violescent",
+        "isReal": true
+      },
+      {
+        "word": "grumpleglop",
+        "isReal": false
+      },
+      {
+        "word": "olivescent",
+        "isReal": true
+      },
+      {
+        "word": "snorkleglop",
+        "isReal": false
+      },
+      {
+        "word": "cinerescent",
+        "isReal": true
+      },
+      {
+        "word": "bliggleglop",
+        "isReal": false
+      },
+      {
+        "word": "erubescent",
+        "isReal": true
+      },
+      {
+        "word": "snurfleglop",
+        "isReal": false
+      },
+      {
+        "word": "viridescent",
+        "isReal": true
+      },
+      {
+        "word": "grizzleplop",
+        "isReal": false
+      },
+      {
+        "word": "chrysanthemum",
+        "isReal": true
+      },
+      {
+        "word": "blunderplop",
+        "isReal": false
+      },
+      {
+        "word": "perpendicular",
+        "isReal": true
+      },
+      {
+        "word": "sniggleplop",
+        "isReal": false
+      },
+      {
+        "word": "caterpillar",
+        "isReal": true
+      },
+      {
+        "word": "fumbleplop",
+        "isReal": false
+      },
+      {
+        "word": "rhinoceros",
+        "isReal": true
+      },
+      {
+        "word": "grumpleplop",
+        "isReal": false
+      },
+      {
+        "word": "hippopotamus",
+        "isReal": true
+      },
+      {
+        "word": "snorkleplop",
+        "isReal": false
+      },
+      {
+        "word": "kaleidoscope",
+        "isReal": true
+      },
+      {
+        "word": "bliggleplop",
+        "isReal": false
+      },
+      {
+        "word": "xylophone",
+        "isReal": true
+      },
+      {
+        "word": "snurfleplop",
+        "isReal": false
+      },
+      {
+        "word": "saxophone",
+        "isReal": true
+      },
+      {
+        "word": "grizzlewump",
+        "isReal": false
+      },
+      {
+        "word": "telescope",
+        "isReal": true
+      },
+      {
+        "word": "blunderwump",
+        "isReal": false
+      },
+      {
+        "word": "microscope",
+        "isReal": true
+      },
+      {
+        "word": "snigglerwump",
+        "isReal": false
+      },
+      {
+        "word": "stethoscope",
+        "isReal": true
+      },
+      {
+        "word": "fumblewump",
+        "isReal": false
+      },
+      {
+        "word": "horoscope",
+        "isReal": true
+      },
+      {
+        "word": "grumplewump",
+        "isReal": false
+      },
+      {
+        "word": "periscope",
+        "isReal": true
+      },
+      {
+        "word": "snorklewump",
+        "isReal": false
+      },
+      {
+        "word": "gyroscope",
+        "isReal": true
+      },
+      {
+        "word": "bligglewump",
+        "isReal": false
+      },
+      {
+        "word": "oscilloscope",
+        "isReal": true
+      },
+      {
+        "word": "snurflewump",
+        "isReal": false
+      },
+      {
+        "word": "spectroscope",
+        "isReal": true
+      }
+    ]
+  }

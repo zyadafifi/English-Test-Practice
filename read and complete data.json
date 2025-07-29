@@ -1,0 +1,148 @@
+{
+    "config": {
+      "title": "Complete the text with the correct words",
+      "shuffleQuestions": true
+    },
+    "questions": [
+      {
+        "id": 1,
+        "title": "Solar Energy Basics",
+        "passage": "Solar energy is a renewable and clean source of energy. It is the # source # energy # by the Earth, and it has an # supply. In #, the # of # that # the Earth's # in an hour and half # provide the # with enough # for a # year. Solar energy is clean because the Sun does not release carbon dioxide, and as a result, solar energy does not contribute to climate change.",
+        "correctAnswers": ["largest", "of", "used", "endless", "fact", "amount", "sunlight", "reaches", "surface", "and", "could", "world", "energy", "full"],
+        "visibleLetters": ["l_r___t", "_f", "u___", "e____e__", "f__t", "a____t", "s______t", "r_____s", "s____ce", "a_d", "c____", "w___d", "e____y", "f__l"]
+      },
+      {
+        "id": 2,
+        "title": "The History of Photography",
+        "passage": "Photography has a # and fascinating history. The first # photograph was taken in the early # century by Joseph Nicéphore Niépce. However, it # many hours of # to create the image. Later, Louis Daguerre # the daguerreotype process, which # the exposure time significantly. This # made photography more # and accessible to the #. The invention of film in the late 1800s # photography even more convenient and #.",
+        "correctAnswers": ["long", "permanent", "19th", "took", "exposure", "developed", "reduced", "innovation", "practical", "public", "made", "popular"],
+        "visibleLetters": ["l__g", "p______nt", "1_th", "t__k", "e_____re", "d______ed", "r____ed", "i_______on", "p______al", "p____c", "m__e", "p____ar"]
+      },
+      {
+        "id": 3,
+        "title": "The Benefits of Reading",
+        "passage": "Reading is one of the most # activities a person can engage in. It # the mind, improves vocabulary, and # critical thinking skills. Regular reading has been # to reduce stress and improve mental health. Studies show that people who read # are more likely to have better # skills and higher levels of empathy. Reading also # the brain active and can help # age-related cognitive decline. Whether it's fiction or non-fiction, reading # a gateway to knowledge and personal #.",
+        "correctAnswers": ["beneficial", "exercises", "develops", "shown", "regularly", "communication", "keeps", "prevent", "provides", "growth"],
+        "visibleLetters": ["b_____ial", "e______es", "d______s", "s___n", "r______ly", "c_________on", "k___s", "p____nt", "p______s", "g____h"]
+      },
+      {
+        "id": 4,
+        "title": "Climate Change Effects",
+        "passage": "Climate change is # one of the greatest challenges facing humanity today. Rising global temperatures are # ice caps and glaciers to melt, which # to rising sea levels. This phenomenon # coastal communities around the world. Additionally, climate change is # more frequent and severe weather events, including hurricanes, droughts, and floods. These changes are # ecosystems and wildlife habitats, forcing many species to # or face extinction. Immediate # is required to address this global crisis.",
+        "correctAnswers": ["arguably", "causing", "leads", "threatens", "causing", "destroying", "adapt", "action"],
+        "visibleLetters": ["a______y", "c_____g", "l___s", "t_______s", "c_____g", "d______ing", "a___t", "a____n"]
+      },
+      {
+        "id": 5,
+        "title": "The Internet Revolution",
+        "passage": "The Internet has # transformed the way we live, work, and communicate. What began as a # project in the 1960s has # into a global network connecting billions of people. The Internet has # traditional industries and created entirely new ones. Online shopping, social media, and digital # have become integral parts of modern life. The # of information available at our fingertips is unprecedented, # both opportunities and challenges for society.",
+        "correctAnswers": ["completely", "military", "grown", "disrupted", "entertainment", "amount", "creating"],
+        "visibleLetters": ["c_______ly", "m______y", "g___n", "d______ed", "e___________nt", "a____t", "c______g"]
+      },
+      {
+        "id": 6,
+        "title": "Ocean Conservation",
+        "passage": "The world's oceans are # to millions of marine species and play a crucial # in regulating Earth's climate. However, human activities are # serious threats to ocean health. Pollution, overfishing, and climate change are # marine ecosystems worldwide. Plastic waste is particularly #, as it can take hundreds of years to decompose and # harmful to marine life. Conservation efforts are # to protect these vital ecosystems for future generations.",
+        "correctAnswers": ["home", "role", "creating", "damaging", "harmful", "proves", "essential"],
+        "visibleLetters": ["h__e", "r__e", "c______g", "d______g", "h____ul", "p____s", "e______al"]
+      },
+      {
+        "id": 7,
+        "title": "The Power of Exercise",
+        "passage": "Regular exercise is # for maintaining good health and well-being. Physical activity # the cardiovascular system, builds muscle strength, and improves flexibility. Exercise also has significant # benefits, including reduced stress and improved mood. Studies have shown that people who exercise regularly # better sleep quality and higher energy levels throughout the day. Even # amounts of daily activity can make a substantial # to overall health.",
+        "correctAnswers": ["essential", "strengthens", "mental", "experience", "moderate", "difference"],
+        "visibleLetters": ["e______al", "s_______ns", "m____l", "e_______ce", "m______e", "d_______ce"]
+      },
+      {
+        "id": 8,
+        "title": "Renewable Energy Sources",
+        "passage": "Renewable energy sources are becoming increasingly # as alternatives to fossil fuels. Solar, wind, and hydroelectric power are # sources of clean energy that don't produce harmful emissions. These technologies have become more # and cost-effective in recent years. Many countries are # significant investments in renewable energy infrastructure to reduce their carbon footprint. The # to renewable energy is essential for combating climate change and ensuring a sustainable future.",
+        "correctAnswers": ["important", "excellent", "efficient", "making", "transition"],
+        "visibleLetters": ["i______nt", "e______nt", "e_____nt", "m____g", "t_______on"]
+      },
+      {
+        "id": 9,
+        "title": "The Digital Age",
+        "passage": "We are living in an unprecedented # of technological advancement. Digital devices have become # in almost every aspect of our daily lives. Smartphones, tablets, and computers have # the way we access information, communicate with others, and conduct business. Social media platforms have # new forms of interaction and community building. However, this digital # also brings challenges, including concerns about privacy, screen time, and digital addiction.",
+        "correctAnswers": ["era", "common", "changed", "created", "revolution"],
+        "visibleLetters": ["e_a", "c____n", "c_____d", "c_____d", "r________on"]
+      },
+      {
+        "id": 10,
+        "title": "Space Exploration",
+        "passage": "Space exploration has # humanity's understanding of the universe and our place within it. Since the first human # into space, we have achieved remarkable milestones, including landing on the moon and # robotic missions to other planets. These achievements have # to numerous technological innovations that benefit life on Earth. Space exploration also # international cooperation and inspires future generations to pursue careers in science and technology.",
+        "correctAnswers": ["expanded", "flight", "sending", "led", "promotes"],
+        "visibleLetters": ["e______d", "f____t", "s_____g", "l_d", "p______s"]
+      },
+      {
+        "id": 11,
+        "title": "Urban Planning",
+        "passage": "Urban planning plays a # role in creating livable and sustainable cities. Good planning # the efficient use of land, transportation systems, and public services. It also # to consider environmental factors and the needs of different communities. Modern urban planners face the # of accommodating growing populations while # green spaces and reducing environmental impact. Successful urban planning # collaboration between government, developers, and community members.",
+        "correctAnswers": ["vital", "ensures", "seeks", "challenge", "preserving", "requires"],
+        "visibleLetters": ["v___l", "e_____s", "s___s", "c_______e", "p_______ng", "r______s"]
+      },
+      {
+        "id": 12,
+        "title": "Artificial Intelligence",
+        "passage": "Artificial Intelligence (AI) is # transforming various industries and aspects of society. AI systems can # vast amounts of data, recognize patterns, and make decisions with remarkable accuracy. In healthcare, AI is # doctors diagnose diseases and develop treatment plans. In transportation, autonomous vehicles # AI to navigate safely. However, the rapid # of AI also raises important questions about job displacement, privacy, and ethical considerations.",
+        "correctAnswers": ["rapidly", "process", "helping", "use", "development"],
+        "visibleLetters": ["r_____y", "p_____s", "h_____g", "u_e", "d_______nt"]
+      },
+      {
+        "id": 13,
+        "title": "Sustainable Agriculture",
+        "passage": "Sustainable agriculture # to meet current food needs while preserving resources for future generations. This approach # environmentally friendly farming practices that maintain soil health and biodiversity. Sustainable farmers # crop rotation, reduced pesticide use, and water conservation techniques. These methods help # soil erosion and water pollution while maintaining productive farmland. The # to sustainable agriculture is crucial for feeding the world's growing population responsibly.",
+        "correctAnswers": ["aims", "employs", "use", "prevent", "transition"],
+        "visibleLetters": ["a__s", "e_____s", "u_e", "p_____t", "t_______on"]
+      },
+      {
+        "id": 14,
+        "title": "Mental Health Awareness",
+        "passage": "Mental health awareness has # significantly in recent years. Society is becoming more # of the importance of psychological well-being and its impact on overall health. Mental health # affect people of all ages and backgrounds, and seeking help should not carry stigma. Early # and treatment can greatly improve outcomes for those experiencing mental health challenges. Education and open # about mental health are essential for creating supportive communities.",
+        "correctAnswers": ["increased", "aware", "issues", "intervention", "discussion"],
+        "visibleLetters": ["i______ed", "a___e", "i____s", "i_________on", "d________on"]
+      },
+      {
+        "id": 15,
+        "title": "Global Trade",
+        "passage": "Global trade has # economic growth and development worldwide. International commerce # countries to specialize in producing goods and services where they have competitive advantages. This specialization # to increased efficiency and lower costs for consumers. Trade agreements between nations # barriers and facilitate the flow of goods across borders. However, globalization also creates # for workers in industries that face international competition.",
+        "correctAnswers": ["facilitated", "allows", "leads", "reduce", "challenges"],
+        "visibleLetters": ["f________ed", "a____s", "l___s", "r____e", "c________s"]
+      },
+      {
+        "id": 16,
+        "title": "Wildlife Conservation",
+        "passage": "Wildlife conservation is # for maintaining biodiversity and ecosystem balance. Many species are currently # extinction due to habitat loss, climate change, and human activities. Conservation efforts # protecting natural habitats, establishing wildlife reserves, and implementing breeding programs for endangered species. International cooperation is # because many species migrate across national borders. Public education and awareness are also # components of successful conservation strategies.",
+        "correctAnswers": ["essential", "facing", "include", "crucial", "key"],
+        "visibleLetters": ["e______al", "f____g", "i_____e", "c_____l", "k_y"]
+      },
+      {
+        "id": 17,
+        "title": "Educational Technology",
+        "passage": "Educational technology has # the landscape of learning and teaching. Digital tools and platforms # new opportunities for interactive and personalized education. Students can now # online courses, participate in virtual classrooms, and use educational apps to enhance their learning experience. Teachers # technology to create engaging lessons and track student progress more effectively. However, the digital # in education also highlights inequalities in access to technology and internet connectivity.",
+        "correctAnswers": ["transformed", "provide", "access", "utilize", "divide"],
+        "visibleLetters": ["t_________d", "p_____e", "a____s", "u_____e", "d____e"]
+      },
+      {
+        "id": 18,
+        "title": "Healthy Eating",
+        "passage": "Healthy eating is # for maintaining good physical and mental health. A balanced diet should # a variety of nutrients from different food groups. Fresh fruits and vegetables # essential vitamins and minerals that support immune function. Whole grains # sustained energy and help regulate blood sugar levels. Limiting processed foods and added sugars can # the risk of chronic diseases such as diabetes and heart disease.",
+        "correctAnswers": ["fundamental", "include", "provide", "provide", "reduce"],
+        "visibleLetters": ["f________al", "i_____e", "p_____e", "p_____e", "r____e"]
+      },
+      {
+        "id": 19,
+        "title": "Renewable Transportation",
+        "passage": "The transportation sector is # a significant transformation toward sustainability. Electric vehicles are becoming more # and affordable, offering a cleaner alternative to traditional gasoline-powered cars. Public transportation systems are also # electric and hybrid technologies to reduce emissions. Governments worldwide are # incentives to encourage the adoption of renewable transportation options. This shift is # for reducing air pollution and combating climate change.",
+        "correctAnswers": ["undergoing", "popular", "adopting", "implementing", "crucial"],
+        "visibleLetters": ["u_______ng", "p_____r", "a______g", "i__________ng", "c_____l"]
+      },
+      {
+        "id": 20,
+        "title": "Water Conservation",
+        "passage": "Water conservation is becoming increasingly # as freshwater resources face growing pressure from population growth and climate change. Simple actions like fixing leaks, using water-efficient appliances, and # shorter showers can make a significant difference. Industries and agriculture are also # water-saving technologies and practices. Governments are # policies to encourage water conservation and protect water sources. Individual and collective efforts are # to ensure sustainable water use for future generations.",
+        "correctAnswers": ["important", "taking", "implementing", "developing", "essential"],
+        "visibleLetters": ["i______nt", "t____g", "i__________ng", "d_______ng", "e______al"]
+      }
+    ]
+  }
