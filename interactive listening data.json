@@ -1,0 +1,260 @@
+{
+    "config": {
+      "title": "Listen to the scenario and then answer questions",
+      "shuffleQuestions": true
+    },
+    "questions": [
+      {
+        "id": 1,
+        "scenario": "You're planning a weekend trip with your friends. You need to decide on the destination, book accommodation, and plan activities. Your friend Sarah suggests going to the mountains for hiking, while your friend Mike prefers the beach for relaxation.",
+        "questions": [
+          {
+            "text": "What do you need to do?",
+            "type": "fill",
+            "template": "I need to choose ___________."
+          },
+          {
+            "text": "Why do you think your classmate will have good advice?",
+            "type": "fill",
+            "template": "My classmate and I are both ___________."
+          },
+          {
+            "text": "What topic are you thinking about?",
+            "type": "fill", 
+            "template": "I am thinking about the use of ___________."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "scenario": "You're starting a new job at a tech company next Monday. You need to prepare by buying professional clothes, organizing your documents, and learning about the company culture. Your mentor has given you some advice about the first week.",
+        "questions": [
+          {
+            "text": "When are you starting your new position?",
+            "type": "fill",
+            "template": "I will start working ___________."
+          },
+          {
+            "text": "What do you need to prepare?",
+            "type": "fill",
+            "template": "I need to get ready by ___________."
+          },
+          {
+            "text": "Who has been helping you?",
+            "type": "fill",
+            "template": "My ___________ has been giving me guidance."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "scenario": "You're organizing a birthday party for your best friend. You need to send invitations, order a cake, and decorate the venue. The party is this Saturday evening, and you want to make it special because it's a milestone birthday.",
+        "questions": [
+          {
+            "text": "What event are you planning?",
+            "type": "fill",
+            "template": "I am organizing a ___________."
+          },
+          {
+            "text": "When is the celebration?",
+            "type": "fill",
+            "template": "The party will be ___________."
+          },
+          {
+            "text": "Why is this celebration important?",
+            "type": "fill",
+            "template": "This is special because it's a ___________."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "scenario": "You're moving to a new apartment next month. You need to pack your belongings, hire a moving company, and update your address with various services. Your landlord has been very helpful with the transition process.",
+        "questions": [
+          {
+            "text": "What major change is happening?",
+            "type": "fill",
+            "template": "I am ___________ next month."
+          },
+          {
+            "text": "What tasks do you need to complete?",
+            "type": "fill",
+            "template": "I need to pack and ___________."
+          },
+          {
+            "text": "Who is assisting you?",
+            "type": "fill",
+            "template": "My ___________ has been very supportive."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "scenario": "You're taking an important exam next week for your professional certification. You've been studying for months and feel confident about most topics, but you're still worried about the practical section of the test.",
+        "questions": [
+          {
+            "text": "What are you preparing for?",
+            "type": "fill",
+            "template": "I am getting ready for ___________."
+          },
+          {
+            "text": "How long have you been preparing?",
+            "type": "fill",
+            "template": "I have been studying for ___________."
+          },
+          {
+            "text": "What concerns you most?",
+            "type": "fill",
+            "template": "I am worried about the ___________ part."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "scenario": "You're learning to cook Italian cuisine because you want to impress your family at the upcoming reunion. You've been taking cooking classes and practicing recipes at home. Your grandmother has been sharing her traditional recipes with you.",
+        "questions": [
+          {
+            "text": "What new skill are you developing?",
+            "type": "fill",
+            "template": "I am learning to ___________."
+          },
+          {
+            "text": "Why are you learning this?",
+            "type": "fill",
+            "template": "I want to impress my ___________."
+          },
+          {
+            "text": "Who is helping you learn?",
+            "type": "fill",
+            "template": "My ___________ has been sharing recipes."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "scenario": "You're planning to adopt a pet from the local animal shelter. You need to research different breeds, prepare your home, and make sure you have enough time to care for the animal. Your veterinarian friend has been giving you advice.",
+        "questions": [
+          {
+            "text": "What decision are you making?",
+            "type": "fill",
+            "template": "I am planning to ___________."
+          },
+          {
+            "text": "What preparations are needed?",
+            "type": "fill",
+            "template": "I need to prepare my ___________ and research breeds."
+          },
+          {
+            "text": "Who is providing guidance?",
+            "type": "fill",
+            "template": "My ___________ friend has been helpful."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "scenario": "You're starting a small business selling handmade jewelry online. You need to create a website, photograph your products, and develop a marketing strategy. Your business mentor has been helping you understand the market.",
+        "questions": [
+          {
+            "text": "What venture are you beginning?",
+            "type": "fill",
+            "template": "I am starting a ___________."
+          },
+          {
+            "text": "What do you need to create?",
+            "type": "fill",
+            "template": "I need to build a ___________ and photograph products."
+          },
+          {
+            "text": "Who is supporting your efforts?",
+            "type": "fill",
+            "template": "My business ___________ has been guiding me."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "scenario": "You're renovating your kitchen because the appliances are old and the layout is inefficient. You need to choose new cabinets, select appliances, and hire contractors. Your interior designer friend has been helping with the planning.",
+        "questions": [
+          {
+            "text": "What home improvement are you doing?",
+            "type": "fill",
+            "template": "I am renovating my ___________."
+          },
+          {
+            "text": "Why is this necessary?",
+            "type": "fill",
+            "template": "The appliances are ___________ and the layout is inefficient."
+          },
+          {
+            "text": "Who is assisting with the design?",
+            "type": "fill",
+            "template": "My ___________ designer friend is helping."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "scenario": "You're training for a marathon that takes place in six months. You need to follow a strict training schedule, improve your diet, and buy proper running gear. Your running coach has created a personalized program for you.",
+        "questions": [
+          {
+            "text": "What athletic goal are you pursuing?",
+            "type": "fill",
+            "template": "I am training for a ___________."
+          },
+          {
+            "text": "When is your target event?",
+            "type": "fill",
+            "template": "The race is in ___________."
+          },
+          {
+            "text": "Who designed your training plan?",
+            "type": "fill",
+            "template": "My running ___________ created my program."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "scenario": "You're learning a new programming language for your career advancement. You need to complete online courses, practice coding, and build a portfolio project. Your colleague has been recommending useful resources.",
+        "questions": [
+          {
+            "text": "What skill are you acquiring?",
+            "type": "fill",
+            "template": "I am learning a new ___________."
+          },
+          {
+            "text": "Why are you learning this?",
+            "type": "fill",
+            "template": "I want to advance my ___________."
+          },
+          {
+            "text": "Who is providing recommendations?",
+            "type": "fill",
+            "template": "My ___________ has been suggesting resources."
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "scenario": "You're organizing a charity fundraiser for the local hospital. You need to contact sponsors, book a venue, and coordinate volunteers. The event will raise money for new medical equipment that the hospital desperately needs.",
+        "questions": [
+          {
+            "text": "What type of event are you organizing?",
+            "type": "fill",
+            "template": "I am organizing a charity ___________."
+          },
+          {
+            "text": "What is the purpose?",
+            "type": "fill",
+            "template": "We want to raise money for ___________."
+          },
+          {
+            "text": "Why is this important?",
+            "type": "fill",
+            "template": "The hospital ___________ needs this equipment."
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,111 @@
+{
+    "config": {
+      "title": "Speaking Sample",
+      "shuffleQuestions": true,
+      "prepareTime": 30,
+      "speakingTime": 180,
+      "enableContinueAfter": 60
+    },
+    "questions": [
+      {
+        "id": 1,
+        "topicText": "Describe a traditional festival in your country. What happens during this festival?",
+        "sampleAnswer": "One of the most famous festivals in my country is the Spring Festival, also known as Chinese New Year. Families gather for reunion dinners, clean their homes to sweep away bad luck, and decorate with red lanterns for good fortune. At midnight, fireworks light up the sky to scare away evil spirits. Children receive red envelopes with money, and people visit relatives to exchange blessings for the new year."
+      },
+      {
+        "id": 2,
+        "topicText": "Talk about a national holiday that is important in your culture. How do people celebrate it?",
+        "sampleAnswer": "Independence Day is a major national holiday in my country. People celebrate with parades, flag-raising ceremonies, and patriotic songs. Families gather for barbecues, and at night, there are spectacular fireworks displays. Many wear traditional clothing, and communities organize cultural performances to honor our history and freedom."
+      },
+      {
+        "id": 3,
+        "topicText": "Describe a religious celebration you have participated in. What makes it meaningful?",
+        "sampleAnswer": "I recently celebrated Ramadan with my family. For a month, we fast from sunrise to sunset, focusing on prayer and charity. The most meaningful part is the nightly family meals (iftar) where we break our fast together. At the end, Eid al-Fitr is celebrated with feasts, new clothes, and giving gifts to children, reinforcing unity and gratitude."
+      },
+      {
+        "id": 4,
+        "topicText": "Have you ever been to a cultural festival from another country? Describe your experience.",
+        "sampleAnswer": "Last year, I attended the Brazilian Carnival in Rio de Janeiro. The vibrant costumes, samba music, and energetic dances were unforgettable. Streets were filled with parade floats, and people from all over the world joined the celebration. I tried traditional foods like feijoada and learned about the cultural significance behind the festival’s history."
+      },
+      {
+        "id": 5,
+        "topicText": "What is your favorite holiday, and why?",
+        "sampleAnswer": "My favorite holiday is Thanksgiving because it’s a time for family, gratitude, and delicious food. We gather at my grandparents’ house, where everyone helps cook dishes like roasted turkey, mashed potatoes, and pumpkin pie. After dinner, we share what we’re thankful for, making it a warm and meaningful celebration."
+      },
+      {
+        "id": 6,
+        "topicText": "Describe a wedding ceremony or celebration you attended. What traditions were included?",
+        "sampleAnswer": "I attended a traditional Indian wedding last summer. The ceremony lasted three days and included rituals like the Mehndi (henna art), Sangeet (music and dance night), and the main wedding with the couple circling a sacred fire. The vibrant colors, delicious food, and joyful dancing made it a truly unforgettable experience."
+      },
+      {
+        "id": 7,
+        "topicText": "Talk about a festival that involves special food. What dishes are prepared, and why?",
+        "sampleAnswer": "During the Mid-Autumn Festival in China, families prepare mooncakes—a sweet pastry filled with lotus paste and egg yolks, symbolizing reunion. We also eat pomelos for good luck and drink tea while admiring the full moon. These foods connect us to ancient legends about the moon goddess Chang’e."
+      },
+      {
+        "id": 8,
+        "topicText": "Describe a New Year’s Eve celebration you remember well. What made it memorable?",
+        "sampleAnswer": "One unforgettable New Year’s Eve was in Times Square, New York. Despite the cold, the energy of the crowd counting down to midnight was exhilarating. When the ball dropped, confetti filled the air, and strangers hugged in celebration. The live performances and fireworks made it a once-in-a-lifetime experience."
+      },
+      {
+        "id": 9,
+        "topicText": "Have you ever participated in a harvest festival? What activities were part of it?",
+        "sampleAnswer": "In my village, we celebrate the Harvest Festival by decorating the church with crops, singing hymns, and sharing a community feast. Farmers bring their best produce for competitions, and children make corn dollies. It’s a time to give thanks for the year’s bounty and enjoy folk dances and games."
+      },
+      {
+        "id": 10,
+        "topicText": "Talk about a festival that includes music and dancing. What role do these play in the event?",
+        "sampleAnswer": "At the Rio Carnival, music and dance are the heart of the celebration. Samba schools spend months preparing elaborate performances, and the rhythmic beats bring everyone together in the streets. The dances tell cultural stories, and the music creates an infectious energy that unites people from all backgrounds."
+      },
+      {
+        "id": 11,
+        "topicText": "What is a special tradition in your family? Why is it important?",
+        "sampleAnswer": "Every Sunday, my family cooks a big meal together. My grandmother teaches us traditional recipes, and we share stories while eating. This tradition strengthens our bond and preserves our culinary heritage. Even when busy, we prioritize this time to stay connected."
+      },
+      {
+        "id": 12,
+        "topicText": "Describe a family gathering that happens every year. What do you do during this time?",
+        "sampleAnswer": "Every summer, my extended family rents a beach house for a week. We swim, play volleyball, and have bonfires at night. The highlight is our annual talent show, where everyone—from kids to grandparents—performs. It’s a joyful tradition that creates lasting memories."
+      },
+      {
+        "id": 13,
+        "topicText": "Are there any traditional foods your family prepares for certain occasions? Describe them.",
+        "sampleAnswer": "For Christmas, my Italian family makes homemade ravioli and lasagna from scratch. My grandfather rolls the pasta dough, and we all help layer the dishes. The recipes have been passed down for generations, and the meal symbolizes love and togetherness."
+      },
+      {
+        "id": 14,
+        "topicText": "How does your family celebrate birthdays? Are there any unique customs?",
+        "sampleAnswer": "In my family, the birthday person wakes up to a decorated chair at the breakfast table. We eat cake for breakfast (!) and share heartfelt letters instead of store-bought cards. At night, we watch home videos from past birthdays, making it a nostalgic and personal celebration."
+      },
+      {
+        "id": 15,
+        "topicText": "Talk about a gift-giving tradition in your family. What makes it meaningful?",
+        "sampleAnswer": "On New Year’s Day, my family exchanges handwritten letters instead of material gifts. We express appreciation for each other and set positive intentions for the year ahead. Reading these letters aloud brings tears and laughter, making it our most cherished tradition."
+      },
+      {
+        "id": 16,
+        "topicText": "Describe a family ritual that has been passed down through generations.",
+        "sampleAnswer": "Before weddings, my family plants a tree together—a symbol of growth and unity. My great-grandfather started this in our homeland, and now we continue it worldwide. Each tree’s location marks where a new family branch begins, connecting us to our roots."
+      },
+      {
+        "id": 17,
+        "topicText": "Does your family have any special customs for welcoming guests? Explain.",
+        "sampleAnswer": "When guests arrive, my mother presents them with a tray of salt, bread, and honey. The salt represents loyalty, bread symbolizes prosperity, and honey ensures sweet relationships. This Slavic tradition makes visitors feel honored and immediately part of the family."
+      },
+      {
+        "id": 18,
+        "topicText": "What is a childhood tradition that you still remember fondly?",
+        "sampleAnswer": "Every Friday night, my father made 'adventure sandwiches'—mystery fillings we had to guess—while we camped in the living room. We’d tell stories by flashlight, and the silliest tale won a prize. This sparked my love for storytelling and family time."
+      },
+      {
+        "id": 19,
+        "topicText": "How do you and your family celebrate achievements or milestones?",
+        "sampleAnswer": "For graduations or promotions, we host a 'memory dinner.' The honoree picks a menu from their life (e.g., college snack food), and we toast with personalized speeches. Photos from their journey decorate the table, making it a reflective and uplifting celebration."
+      },
+      {
+        "id": 20,
+        "topicText": "If you could create a new family tradition, what would it be and why?",
+        "sampleAnswer": "I’d start a 'family skill swap' day where each member teaches something they’re good at—like baking, coding, or gardening. It would foster learning, bonding, and appreciation for each other’s talents while creating fun shared experiences."
+      }
+    ]
+  }

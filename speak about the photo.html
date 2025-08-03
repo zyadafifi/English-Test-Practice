@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speak About the Photo - Duolingo English Test Practice</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, sans-serif;
+        background: #e8e8e8;
+        min-height: 100vh;
+        line-height: 1.6;
+        color: #333;
+      }
+      img {
+        width: 450px;
+        height: 300px;
+      }
+      .mic-icon {
+        margin-right: 8px;
+      }
+
+      /* Loading Screen */
+      .loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #e8e8e8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      }
+
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid #e0e0e0;
+        border-top: 4px solid #1cb0f6;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .loading-text {
+        margin-top: 20px;
+        font-size: 16px;
+        color: #666;
+      }
+
+      /* Error Screen */
+      .error-screen {
+        display: none;
+        text-align: center;
+        padding: 40px;
+        background-color: #ffebee;
+        border-radius: 12px;
+        border: 1px solid #f44336;
+        margin: 20px;
+      }
+
+      .error-title {
+        font-size: 24px;
+        font-weight: 600;
+        color: #f44336;
+        margin-bottom: 10px;
+      }
+
+      .error-message {
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .retry-data-btn {
+        background: #1cb0f6;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+
+      .retry-data-btn:hover {
+        background: #1a9fd4;
+      }
+
+      /* Quiz Container */
+      .quiz-container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 40px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Question Card */
+      .question-card {
+        background: white;
+        border-radius: 12px;
+        padding: 50px 60px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        width: 100%;
+        max-width: 900px;
+        text-align: center;
+        position: relative;
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+      }
+
+      /* Timer */
+      .timer {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        background: transparent;
+        padding: 0;
+        border-radius: 0;
+        font-weight: 400;
+        color: #888;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .timer-icon {
+        width: 20px;
+        height: 20px;
+        fill: currentColor;
+      }
+
+      .timer.warning {
+        color: #f44336;
+        font-weight: 600;
+      }
+
+      /* Close Button */
+      .close-btn {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 4px;
+        transition: background 0.2s;
+        color: #ddd;
+      }
+
+      .close-btn:hover {
+        background: #f8f8f8;
+      }
+
+      /* Question Content */
+      .question-title {
+        font-size: 28px;
+        font-weight: 400;
+        color: #666;
+        margin-bottom: 20px;
+        line-height: 1.2;
+      }
+
+      .question-subtitle {
+        font-size: 16px;
+        color: #888;
+        margin-bottom: 40px;
+      }
+
+      /* Photo Container */
+      .photo-container {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .photo-image {
+        max-width: 100%;
+        max-height: 300px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Record Button */
+      .record-button {
+        background: #1cb0f6;
+        color: white;
+        border: none;
+        padding: 16px 32px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.2s;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: center;
+        margin: 0 auto;
+      }
+
+      .record-button:hover {
+        background: #1a9fd4;
+        transform: translateY(-2px);
+      }
+
+      .record-button.recording {
+        background: #f44336;
+        animation: pulse 1.5s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 4px 20px rgba(244, 67, 54, 0.3);
+        }
+        50% {
+          box-shadow: 0 4px 30px rgba(244, 67, 54, 0.6);
+        }
+        100% {
+          box-shadow: 0 4px 20px rgba(244, 67, 54, 0.3);
+        }
+      }
+
+      /* Audio Visualization */
+      .audio-visualizer {
+        margin: 20px 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+      }
+
+      .audio-bar {
+        width: 4px;
+        background: #1cb0f6;
+        border-radius: 2px;
+        animation: audioWave 1s ease-in-out infinite;
+      }
+
+      .audio-bar:nth-child(1) {
+        height: 20px;
+        animation-delay: 0s;
+      }
+      .audio-bar:nth-child(2) {
+        height: 30px;
+        animation-delay: 0.1s;
+      }
+      .audio-bar:nth-child(3) {
+        height: 25px;
+        animation-delay: 0.2s;
+      }
+      .audio-bar:nth-child(4) {
+        height: 35px;
+        animation-delay: 0.3s;
+      }
+      .audio-bar:nth-child(5) {
+        height: 20px;
+        animation-delay: 0.4s;
+      }
+      .audio-bar:nth-child(6) {
+        height: 30px;
+        animation-delay: 0.5s;
+      }
+
+      @keyframes audioWave {
+        0%,
+        100% {
+          transform: scaleY(1);
+        }
+        50% {
+          transform: scaleY(0.5);
+        }
+      }
+
+      /* Continue Button */
+      .continue-btn {
+        background: #1cb0f6;
+        color: white;
+        border: none;
+        padding: 14px 28px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.2s;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+      }
+
+      .continue-btn:hover {
+        background: #1a9fd4;
+      }
+
+      .continue-btn:disabled {
+        background: #e0e0e0;
+        color: #999;
+        cursor: not-allowed;
+      }
+
+      /* Review Section */
+      .review-section {
+        background: #c8e6c9;
+        border-radius: 0;
+        padding: 24px 40px;
+        margin: 0;
+        border: none;
+        display: none;
+        position: relative;
+        width: 100%;
+        max-width: 900px;
+        box-sizing: border-box;
+        text-align: left;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-top: -12px;
+      }
+
+      .review-header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 16px;
+      }
+
+      .review-icon {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        fill: #2e7d32;
+      }
+
+      .review-title {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+        color: #2e7d32;
+      }
+
+      .review-buttons {
+        display: flex;
+        gap: 12px;
+        margin-top: 16px;
+      }
+
+      .sample-btn,
+      .recording-btn {
+        background: white;
+        color: #1cb0f6;
+        border: 2px solid #1cb0f6;
+        padding: 8px 16px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .sample-btn:hover,
+      .recording-btn:hover {
+        background: #1cb0f6;
+        color: white;
+      }
+
+      .sample-btn.playing,
+      .recording-btn.playing {
+        background: #f44336;
+        border-color: #f44336;
+        color: white;
+      }
+
+      .play-icon,
+      .stop-icon {
+        width: 14px;
+        height: 14px;
+        fill: currentColor;
+      }
+
+      /* Continue Button in Review */
+      .continue-review-btn {
+        background: #4caf50;
+        color: white;
+        border: none;
+        padding: 14px 24px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background 0.2s;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        position: absolute;
+        bottom: 24px;
+        right: 24px;
+      }
+
+      .continue-review-btn:hover {
+        background: #45a049;
+      }
+
+      /* Results Screen */
+      .results-screen {
+        display: none;
+        text-align: center;
+        background: white;
+        border-radius: 12px;
+        padding: 80px 60px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        width: 100%;
+        max-width: 600px;
+        min-height: 400px;
+        position: relative;
+      }
+
+      .results-icon {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 40px;
+        background: #1cb0f6;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .results-icon svg {
+        width: 40px;
+        height: 40px;
+        fill: white;
+      }
+
+      .results-title {
+        font-size: 24px;
+        font-weight: 500;
+        color: #777;
+        margin-bottom: 10px;
+        line-height: 1.3;
+      }
+
+      .results-subtitle {
+        font-size: 18px;
+        font-weight: 400;
+        color: #777;
+        margin-bottom: 60px;
+      }
+
+      .done-btn {
+        background: #1cb0f6;
+        color: white;
+        border: none;
+        padding: 16px 32px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background 0.2s;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+      }
+
+      .done-btn:hover {
+        background: #1a9fd4;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .quiz-container {
+          padding: 20px;
+        }
+
+        .question-card {
+          padding: 35px 30px;
+          min-height: 500px;
+        }
+
+        .question-title {
+          font-size: 24px;
+          margin-bottom: 16px;
+        }
+
+        .continue-btn,
+        .continue-review-btn,
+        .done-btn {
+          bottom: 20px;
+          right: 20px;
+          padding: 12px 24px;
+          font-size: 14px;
+        }
+
+        .timer {
+          top: 20px;
+          left: 20px;
+          font-size: 14px;
+        }
+
+        .close-btn {
+          top: 15px;
+          right: 15px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .question-card {
+          padding: 25px 20px;
+        }
+
+        .question-title {
+          font-size: 20px;
+        }
+
+        .results-screen {
+          padding: 50px 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+      <div>
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading quiz data...</div>
+      </div>
+    </div>
+
+    <!-- Error Screen -->
+    <div class="error-screen" id="errorScreen">
+      <div class="error-title">Failed to Load Quiz Data</div>
+      <div class="error-message" id="errorMessage">
+        Could not load the quiz questions. Please check your internet connection
+        and try again.
+      </div>
+      <button class="retry-data-btn" onclick="loadQuizData()">Retry</button>
+      <button
+        class="retry-data-btn"
+        onclick="goBack()"
+        style="background: #f0f0f0; color: #666; margin-left: 10px"
+      >
+        Go Back
+      </button>
+    </div>
+
+    <div class="quiz-container" id="quizContainer" style="display: none">
+      <!-- Question Card -->
+      <div class="question-card" id="questionCard">
+        <!-- Timer -->
+        <div class="timer" id="timer">
+          <svg
+            class="timer-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12,6 12,12 16,14" />
+          </svg>
+          <span id="timerText">0:15</span>
+          <span style="color: #999; margin-left: 6px" id="timerLabel"
+            >to prepare</span
+          >
+        </div>
+
+        <!-- Close Button -->
+        <button class="close-btn" onclick="goBack()">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <!-- Question Content -->
+        <div class="question-content" id="questionContent">
+          <h1 class="question-title" id="questionTitle">
+            Prepare to speak about the image below
+          </h1>
+
+          <p class="question-subtitle" id="questionSubtitle">
+            You will have 90 seconds to speak
+          </p>
+
+          <!-- Photo Container -->
+          <div class="photo-container">
+            <img
+              class="photo-image"
+              id="photoImage"
+              src=""
+              alt="Photo to describe"
+            />
+          </div>
+
+          <!-- Record Button -->
+          <button
+            class="record-button"
+            id="recordButton"
+            onclick="handleRecord()"
+          >
+            <span class="mic-icon"
+              ><svg
+                height="24"
+                preserveAspectRatio="xMidYMin slice"
+                width="24"
+                style="color: rgb(var(--color-snow)); overflow: visible"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M11.5055 0.921631C9.29632 0.921631 7.50546 2.71249 7.50546 4.92163V10.5029C7.50546 12.712 9.29632 14.5029 11.5055 14.5029H12.4973C14.7065 14.5029 16.4973 12.712 16.4973 10.5029V4.92163C16.4973 2.71249 14.7065 0.921631 12.4973 0.921631H11.5055ZM19.9809 12.4921C19.9809 11.9398 19.5332 11.4921 18.9809 11.4921C18.4286 11.4921 17.9809 11.9398 17.9809 12.4921C17.9809 14.924 16.0058 16.8983 13.566 16.8983H10.3052C7.93658 16.8983 6.01913 14.9816 6.01913 12.6206C6.01913 12.0683 5.57141 11.6206 5.01913 11.6206C4.46684 11.6206 4.01913 12.0683 4.01913 12.6206C4.01913 16.0892 6.83503 18.8983 10.3052 18.8983H10.9789V21.0783H10.2096C9.65732 21.0783 9.2096 21.526 9.2096 22.0783C9.2096 22.6305 9.65732 23.0783 10.2096 23.0783H13.9125C14.4648 23.0783 14.9125 22.6305 14.9125 22.0783C14.9125 21.526 14.4648 21.0783 13.9125 21.0783H12.9789V18.8983H13.566C17.1073 18.8983 19.9809 16.0316 19.9809 12.4921Z"
+                  fill="currentcolor"
+                ></path></svg
+            ></span>
+            <span id="recordButtonText">RECORD NOW</span>
+          </button>
+
+          <!-- Audio Visualizer -->
+          <div class="audio-visualizer" id="audioVisualizer">
+            <div class="audio-bar"></div>
+            <div class="audio-bar"></div>
+            <div class="audio-bar"></div>
+            <div class="audio-bar"></div>
+            <div class="audio-bar"></div>
+            <div class="audio-bar"></div>
+          </div>
+
+          <!-- Continue Button -->
+          <button class="continue-btn" id="continueBtn" onclick="nextStep()">
+            CONTINUE
+          </button>
+        </div>
+      </div>
+
+      <!-- Review Section -->
+      <div class="review-section" id="reviewSection">
+        <div class="review-header">
+          <svg
+            class="review-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="16,8 10,14 8,12" />
+          </svg>
+          <div class="review-title">Review sample answer:</div>
+        </div>
+
+        <div class="review-buttons">
+          <button class="sample-btn" id="sampleBtn" onclick="toggleSample()">
+            <svg class="play-icon" id="samplePlayIcon" viewBox="0 0 24 24">
+              <polygon points="5,3 19,12 5,21"></polygon>
+            </svg>
+            <svg
+              class="stop-icon"
+              id="sampleStopIcon"
+              viewBox="0 0 24 24"
+              style="display: none"
+            >
+              <rect x="6" y="4" width="4" height="16"></rect>
+              <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+            <span id="sampleBtnText">SAMPLE</span>
+          </button>
+          <button
+            class="recording-btn"
+            id="recordingBtn"
+            onclick="toggleRecording()"
+          >
+            <svg class="play-icon" id="recordingPlayIcon" viewBox="0 0 24 24">
+              <polygon points="5,3 19,12 5,21"></polygon>
+            </svg>
+            <svg
+              class="stop-icon"
+              id="recordingStopIcon"
+              viewBox="0 0 24 24"
+              style="display: none"
+            >
+              <rect x="6" y="4" width="4" height="16"></rect>
+              <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+            <span id="recordingBtnText">YOUR RECORDING</span>
+          </button>
+        </div>
+
+        <button class="continue-review-btn" onclick="showResults()">
+          CONTINUE
+        </button>
+      </div>
+
+      <!-- Results Screen -->
+      <div class="results-screen" id="resultsScreen">
+        <div class="results-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M8 5V19L19 12L8 5Z" />
+          </svg>
+        </div>
+        <div class="results-title">Practice complete! You</div>
+        <div class="results-subtitle">improved your speaking skills.</div>
+        <button class="done-btn" onclick="goToPractice()">DONE</button>
+      </div>
+    </div>
+
+    <!-- Hidden Audio Elements -->
+    <audio id="sampleAudio" preload="auto"></audio>
+    <audio id="recordingAudio" preload="auto"></audio>
+
+    <script>
+      // Quiz Data (will be loaded from JSON)
+      let allQuizData = [];
+      let quizConfig = {};
+
+      // Quiz State
+      let currentQuestion = null;
+      let currentStep = "prepare"; // prepare, speaking, review, results
+      let questionStartTime = 0;
+      let timerInterval;
+      let prepareTimeout;
+      let recordingTimeout;
+      let mediaRecorder;
+      let recordedChunks = [];
+      let recordedBlob = null;
+      let speechSynthesis = window.speechSynthesis;
+      let currentUtterance = null;
+      let sampleAudio = null;
+      let recordingAudio = null;
+      let isPlayingSample = false;
+      let isPlayingRecording = false;
+      let dataLoaded = false;
+
+      // Configuration
+      const PREPARE_TIME = 15000; // 15 seconds preparation time
+      const RECORDING_TIME = 90000; // Will be loaded from JSON
+
+      // Load Quiz Data from JSON
+      async function loadQuizData() {
+        try {
+          showLoadingScreen();
+
+          const response = await fetch("speak about the photo data.json");
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          const data = await response.json();
+
+          // Validate data structure
+          if (
+            !data.questions ||
+            !Array.isArray(data.questions) ||
+            data.questions.length === 0
+          ) {
+            throw new Error(
+              "Invalid data format: questions array is missing or empty"
+            );
+          }
+
+          allQuizData = data.questions;
+          quizConfig = data.config || {};
+
+          if (allQuizData.length === 0) {
+            throw new Error("No questions available in the data file.");
+          }
+
+          dataLoaded = true;
+          hideLoadingScreen();
+          initializeQuiz();
+        } catch (error) {
+          console.error("Error loading quiz data:", error);
+          showErrorScreen(error.message);
+        }
+      }
+
+      // Show/Hide Loading Screen
+      function showLoadingScreen() {
+        document.getElementById("loadingScreen").style.display = "flex";
+        document.getElementById("errorScreen").style.display = "none";
+        document.getElementById("quizContainer").style.display = "none";
+      }
+
+      function hideLoadingScreen() {
+        document.getElementById("loadingScreen").style.display = "none";
+        document.getElementById("quizContainer").style.display = "flex";
+      }
+
+      function showErrorScreen(errorMessage) {
+        document.getElementById("loadingScreen").style.display = "none";
+        document.getElementById("quizContainer").style.display = "none";
+        document.getElementById("errorScreen").style.display = "block";
+        document.getElementById("errorMessage").textContent = errorMessage;
+      }
+
+      // Initialize Quiz
+      function initializeQuiz() {
+        if (!dataLoaded || allQuizData.length === 0) {
+          showErrorScreen("No quiz data available");
+          return;
+        }
+
+        // Select a random question
+        currentQuestion =
+          allQuizData[Math.floor(Math.random() * allQuizData.length)];
+
+        console.log(`Starting quiz with question ID: ${currentQuestion.id}`);
+        showQuestion();
+      }
+
+      // Show Question
+      function showQuestion() {
+        currentStep = "prepare";
+
+        // Reset UI
+        resetUI();
+
+        // Set photo
+        document.getElementById("photoImage").src = currentQuestion.imageUrl;
+
+        // Set initial state - preparation mode
+        document.getElementById("questionTitle").textContent =
+          "Prepare to speak about the image below";
+        document.getElementById("questionSubtitle").textContent =
+          "You will have 90 seconds to speak";
+        document.getElementById("timerLabel").textContent = "to prepare";
+
+        // Show record button, hide others
+        document.getElementById("recordButton").style.display = "block";
+        document.getElementById("audioVisualizer").style.display = "none";
+        document.getElementById("continueBtn").style.display = "none";
+
+        // Hide review section and results
+        document.getElementById("reviewSection").style.display = "none";
+        document.getElementById("resultsScreen").style.display = "none";
+        document.getElementById("questionCard").style.display = "flex";
+
+        // Start prepare timer
+        startPrepareTimer();
+      }
+
+      function resetUI() {
+        // Clear timers
+        clearInterval(timerInterval);
+        clearTimeout(prepareTimeout);
+        clearTimeout(recordingTimeout);
+
+        // Stop any playing audio
+        stopAllAudio();
+
+        // Reset record button
+        const recordButton = document.getElementById("recordButton");
+        recordButton.classList.remove("recording");
+        recordButton.style.display = "block";
+
+        // Hide audio visualizer and continue button initially
+        document.getElementById("audioVisualizer").style.display = "none";
+        document.getElementById("continueBtn").style.display = "none";
+
+        // Reset timer
+        document.getElementById("timer").classList.remove("warning");
+
+        // Stop any recording
+        if (mediaRecorder && mediaRecorder.state === "recording") {
+          mediaRecorder.stop();
+        }
+
+        // Reset recorded data
+        recordedChunks = [];
+        recordedBlob = null;
+      }
+
+      function startPrepareTimer() {
+        questionStartTime = Date.now();
+        let seconds = 0;
+        const maxSeconds = PREPARE_TIME / 1000; // 15 seconds
+
+        timerInterval = setInterval(() => {
+          seconds++;
+          const minutes = Math.floor(seconds / 60);
+          const remainingSeconds = seconds % 60;
+
+          const timerElement = document.getElementById("timer");
+          const timerText = document.getElementById("timerText");
+
+          timerText.textContent = `${minutes}:${remainingSeconds
+            .toString()
+            .padStart(2, "0")}`;
+
+          // Warning color after 10 seconds
+          if (seconds >= 10) {
+            timerElement.classList.add("warning");
+          }
+
+          if (seconds >= maxSeconds) {
+            clearInterval(timerInterval);
+            // Auto start recording after 15 seconds
+            startRecording();
+          }
+        }, 1000);
+
+        // Set timeout to auto-start recording after 15 seconds
+        prepareTimeout = setTimeout(() => {
+          startRecording();
+        }, PREPARE_TIME);
+      }
+
+      async function handleRecord() {
+        if (currentStep === "prepare") {
+          // User clicked record button during preparation
+          clearTimeout(prepareTimeout);
+          clearInterval(timerInterval);
+          startRecording();
+        }
+      }
+
+      async function startRecording() {
+        currentStep = "speaking";
+
+        // Update UI for recording mode
+        document.getElementById("questionTitle").textContent =
+          "Speak about the image below";
+        document.getElementById("questionSubtitle").textContent =
+          "You have 90 seconds to speak";
+        document.getElementById("recordButton").style.display = "none";
+        document.getElementById("audioVisualizer").style.display = "flex";
+        document.getElementById("continueBtn").style.display = "block";
+
+        // Start recording timer
+        startRecordingTimer();
+
+        try {
+          const stream = await navigator.mediaDevices.getUserMedia({
+            audio: true,
+          });
+          mediaRecorder = new MediaRecorder(stream);
+          recordedChunks = [];
+
+          mediaRecorder.ondataavailable = (event) => {
+            if (event.data.size > 0) {
+              recordedChunks.push(event.data);
+            }
+          };
+
+          mediaRecorder.onstop = () => {
+            recordedBlob = new Blob(recordedChunks, { type: "audio/wav" });
+            stream.getTracks().forEach((track) => track.stop());
+          };
+
+          mediaRecorder.start();
+          console.log("Recording started");
+        } catch (error) {
+          console.error("Error starting recording:", error);
+          alert("Could not access microphone. Please check permissions.");
+        }
+      }
+
+      function startRecordingTimer() {
+        let seconds = 0;
+        const maxSeconds = quizConfig.speakingTime || 90; // Convert to seconds
+
+        document.getElementById("timerLabel").textContent = "to speak";
+        document.getElementById("timer").classList.remove("warning");
+
+        timerInterval = setInterval(() => {
+          seconds++;
+          const minutes = Math.floor(seconds / 60);
+          const remainingSeconds = seconds % 60;
+
+          const timerElement = document.getElementById("timer");
+          const timerText = document.getElementById("timerText");
+
+          timerText.textContent = `${minutes}:${remainingSeconds
+            .toString()
+            .padStart(2, "0")}`;
+
+          if (seconds >= maxSeconds) {
+            clearInterval(timerInterval);
+            stopRecording();
+          }
+        }, 1000);
+
+        // Set timeout to auto-stop recording
+        recordingTimeout = setTimeout(() => {
+          stopRecording();
+        }, (quizConfig.speakingTime || 90) * 1000);
+      }
+
+      function stopRecording() {
+        if (mediaRecorder && mediaRecorder.state === "recording") {
+          mediaRecorder.stop();
+        }
+
+        clearInterval(timerInterval);
+        clearTimeout(recordingTimeout);
+
+        // Hide audio visualizer
+        document.getElementById("audioVisualizer").style.display = "none";
+
+        console.log("Recording stopped");
+      }
+
+      function handleRecord() {
+        if (currentStep === "prepare") {
+          // User clicked record button during preparation
+          clearTimeout(prepareTimeout);
+          clearInterval(timerInterval);
+          startRecording();
+        }
+      }
+
+      function nextStep() {
+        if (currentStep === "speaking") {
+          stopRecording();
+          showReview();
+        }
+      }
+
+      function showReview() {
+        currentStep = "review";
+
+        // Keep question card visible but hide the continue button
+        document.getElementById("continueBtn").style.display = "none";
+
+        // Hide audio visualizer since recording is done
+        document.getElementById("audioVisualizer").style.display = "none";
+
+        // Show review section
+        document.getElementById("reviewSection").style.display = "block";
+      }
+
+      function stopAllAudio() {
+        // Stop text-to-speech
+        if (speechSynthesis) {
+          speechSynthesis.cancel();
+        }
+
+        // Stop sample audio
+        if (sampleAudio) {
+          sampleAudio.pause();
+          sampleAudio.currentTime = 0;
+        }
+
+        // Stop recording audio
+        if (recordingAudio) {
+          recordingAudio.pause();
+          recordingAudio.currentTime = 0;
+        }
+
+        // Reset button states
+        resetAudioButtons();
+
+        isPlayingSample = false;
+        isPlayingRecording = false;
+      }
+
+      function resetAudioButtons() {
+        // Reset sample button
+        const sampleBtn = document.getElementById("sampleBtn");
+        const samplePlayIcon = document.getElementById("samplePlayIcon");
+        const sampleStopIcon = document.getElementById("sampleStopIcon");
+        const sampleBtnText = document.getElementById("sampleBtnText");
+
+        if (sampleBtn) {
+          sampleBtn.classList.remove("playing");
+          samplePlayIcon.style.display = "block";
+          sampleStopIcon.style.display = "none";
+          sampleBtnText.textContent = "SAMPLE";
+        }
+
+        // Reset recording button
+        const recordingBtn = document.getElementById("recordingBtn");
+        const recordingPlayIcon = document.getElementById("recordingPlayIcon");
+        const recordingStopIcon = document.getElementById("recordingStopIcon");
+        const recordingBtnText = document.getElementById("recordingBtnText");
+
+        if (recordingBtn) {
+          recordingBtn.classList.remove("playing");
+          recordingPlayIcon.style.display = "block";
+          recordingStopIcon.style.display = "none";
+          recordingBtnText.textContent = "YOUR RECORDING";
+        }
+      }
+
+      function toggleSample() {
+        if (isPlayingSample) {
+          stopAllAudio();
+        } else {
+          stopAllAudio();
+          playSample();
+        }
+      }
+
+      function playSample() {
+        if (!speechSynthesis) {
+          alert("Text-to-speech is not supported in your browser");
+          return;
+        }
+
+        try {
+          isPlayingSample = true;
+
+          // Update button appearance
+          const sampleBtn = document.getElementById("sampleBtn");
+          const samplePlayIcon = document.getElementById("samplePlayIcon");
+          const sampleStopIcon = document.getElementById("sampleStopIcon");
+          const sampleBtnText = document.getElementById("sampleBtnText");
+
+          sampleBtn.classList.add("playing");
+          samplePlayIcon.style.display = "none";
+          sampleStopIcon.style.display = "block";
+          sampleBtnText.textContent = "STOP";
+
+          // Create utterance
+          currentUtterance = new SpeechSynthesisUtterance(
+            currentQuestion.sampleAnswer
+          );
+
+          // Configure speech
+          currentUtterance.rate = 0.9;
+          currentUtterance.pitch = 1.0;
+          currentUtterance.volume = 0.8;
+
+          // Try to use an English voice
+          const voices = speechSynthesis.getVoices();
+          const englishVoice =
+            voices.find(
+              (voice) =>
+                voice.lang.startsWith("en") && !voice.name.includes("Google")
+            ) || voices.find((voice) => voice.lang.startsWith("en"));
+
+          if (englishVoice) {
+            currentUtterance.voice = englishVoice;
+          }
+
+          // Handle speech end
+          currentUtterance.onend = () => {
+            isPlayingSample = false;
+            resetAudioButtons();
+          };
+
+          currentUtterance.onerror = () => {
+            isPlayingSample = false;
+            resetAudioButtons();
+          };
+
+          // Speak the text
+          speechSynthesis.speak(currentUtterance);
+        } catch (error) {
+          console.error("Error with text-to-speech:", error);
+          alert("Error playing sample audio");
+          isPlayingSample = false;
+          resetAudioButtons();
+        }
+      }
+
+      function toggleRecording() {
+        if (isPlayingRecording) {
+          stopAllAudio();
+        } else {
+          stopAllAudio();
+          playRecording();
+        }
+      }
+
+      function playRecording() {
+        if (!recordedBlob) {
+          alert("No recording available");
+          return;
+        }
+
+        try {
+          isPlayingRecording = true;
+
+          // Update button appearance
+          const recordingBtn = document.getElementById("recordingBtn");
+          const recordingPlayIcon =
+            document.getElementById("recordingPlayIcon");
+          const recordingStopIcon =
+            document.getElementById("recordingStopIcon");
+          const recordingBtnText = document.getElementById("recordingBtnText");
+
+          recordingBtn.classList.add("playing");
+          recordingPlayIcon.style.display = "none";
+          recordingStopIcon.style.display = "block";
+          recordingBtnText.textContent = "STOP";
+
+          const audioUrl = URL.createObjectURL(recordedBlob);
+          recordingAudio = document.getElementById("recordingAudio");
+          recordingAudio.src = audioUrl;
+
+          recordingAudio.onended = () => {
+            isPlayingRecording = false;
+            resetAudioButtons();
+            URL.revokeObjectURL(audioUrl);
+          };
+
+          recordingAudio.onerror = () => {
+            isPlayingRecording = false;
+            resetAudioButtons();
+            URL.revokeObjectURL(audioUrl);
+          };
+
+          recordingAudio.play();
+        } catch (error) {
+          console.error("Error playing recording:", error);
+          alert("Error playing your recording");
+          isPlayingRecording = false;
+          resetAudioButtons();
+        }
+      }
+
+      function showResults() {
+        stopAllAudio();
+        document.getElementById("questionCard").style.display = "none";
+        document.getElementById("reviewSection").style.display = "none";
+        document.getElementById("resultsScreen").style.display = "block";
+      }
+
+      // Go to Practice Page
+      function goToPractice() {
+        stopAllAudio();
+
+        // Increment progress by 1 each time Done is clicked
+        incrementSkillProgress("Speak About the Photo");
+
+        // Navigate to main page
+        window.location.href = "index.html";
+      }
+
+      // Function to increment progress by 1
+      function incrementSkillProgress(skillName) {
+        // Get current progress first
+        const currentProgress = getCurrentSkillProgress(skillName);
+        const newCompleted = Math.min(currentProgress + 1, 3); // Don't exceed 3
+
+        const progressData = {
+          skill: skillName,
+          completed: newCompleted,
+          total: 3,
+          timestamp: new Date().toISOString(),
+        };
+
+        try {
+          localStorage.setItem(
+            "speakPhotoProgress",
+            JSON.stringify(progressData)
+          );
+          console.log(`Progress updated: ${skillName} - ${newCompleted}/3`);
+        } catch (error) {
+          console.error("Error saving progress:", error);
+        }
+      }
+
+      // Function to get current skill progress from localStorage
+      function getCurrentSkillProgress(skillName) {
+        try {
+          // Check if there's existing progress in the main app
+          const mainProgressData = localStorage.getItem("skillProgress");
+          if (mainProgressData) {
+            const allProgress = JSON.parse(mainProgressData);
+            if (allProgress[skillName]) {
+              return allProgress[skillName].completed || 0;
+            }
+          }
+          return 0;
+        } catch (error) {
+          console.error("Error reading current progress:", error);
+          return 0;
+        }
+      }
+
+      function goBack() {
+        if (confirm("Are you sure you want to exit the quiz?")) {
+          stopAllAudio();
+          window.history.back();
+        }
+      }
+
+      // Keyboard Support
+      document.addEventListener("keydown", function (event) {
+        if (
+          !dataLoaded ||
+          document.getElementById("quizContainer").style.display === "none"
+        ) {
+          return;
+        }
+
+        if (event.key === "Escape") {
+          goBack();
+        }
+      });
+
+      // Handle page unload - stop all audio
+      window.addEventListener("beforeunload", function () {
+        stopAllAudio();
+      });
+
+      window.addEventListener("unload", function () {
+        stopAllAudio();
+      });
+
+      // Initialize App on Load
+      window.addEventListener("load", function () {
+        console.log("Speak About the Photo Practice App loading...");
+
+        // Wait for voices to load
+        if (speechSynthesis.onvoiceschanged !== undefined) {
+          speechSynthesis.onvoiceschanged = function () {
+            console.log("Voices loaded:", speechSynthesis.getVoices().length);
+          };
+        }
+
+        loadQuizData();
+      });
+
+      console.log(
+        "Speak About the Photo Practice App initialized successfully!"
+      );
+    </script>
+  </body>
+</html>

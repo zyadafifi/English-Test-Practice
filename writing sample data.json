@@ -1,0 +1,490 @@
+{
+    "config": {
+      "title": "Writing Sample Practice",
+      "preparationTime": 6,
+      "writingTime": 300,
+      "shuffleQuestions": true
+    },
+    "questions": [
+      {
+        "id": 1,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Due to the invention of cell phones, people can communicate via text messages. Describe the ways texting has changed how we communicate.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Texting has impacted how we communicate, and one way that I can think of that texting has an impact on how we communicate is the language we use. Texting has brought about an abundance of acronyms that we use to be able to quickly communicate our message to the other party. Even when writing these two short sentences, I've had to stop myself many times from typing out IRL or in real life. These acronyms are no longer constrained to the digital space but have permeated our everyday verbal communication. I've seen people spell out the word IRL (like eye-ar-el) or TLDR (tee-el-dee-ar) while communicating verbally face-to-face with other people. So I would say the adoption of acronyms in the spoken language is one way that texting has changed the way we communicate."
+        }
+      },
+      {
+        "id": 2,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Some people believe that social media has made us more connected, while others argue it has made us more isolated. Discuss your perspective on how social media affects human relationships.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Social media presents a paradox in modern communication. While it connects us to people across the globe, I believe it has simultaneously created a sense of isolation in our immediate relationships. On one hand, platforms like Facebook and Instagram allow us to maintain contact with friends and family members who live far away, sharing important life moments and staying updated on each other's lives. However, I've noticed that these digital interactions often replace face-to-face conversations. People tend to scroll through their phones during meals or gatherings, missing opportunities for genuine connection with those physically present. The curated nature of social media posts also creates unrealistic expectations and comparisons, leading to feelings of inadequacy. Despite having hundreds of online friends, many people report feeling lonelier than ever before."
+        }
+      },
+      {
+        "id": 3,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Technology has significantly changed the way students learn and teachers teach. Describe the impact of technology on education and whether you think these changes are positive or negative.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Technology has revolutionized education in both positive and challenging ways. The most significant positive impact is accessibility - students can now access educational resources from anywhere in the world through online courses, educational videos, and digital libraries. During the pandemic, technology enabled learning to continue when traditional classrooms were closed. Interactive learning tools, virtual simulations, and educational apps have also made learning more engaging and personalized to individual learning styles. However, there are concerning drawbacks. Students may become overly dependent on technology for basic tasks like research or calculations, potentially weakening their critical thinking skills. The digital divide means that not all students have equal access to these technological advantages, creating educational inequalities. Additionally, the constant connectivity can be distracting, with students struggling to focus on lessons when social media and entertainment are just a click away."
+        }
+      },
+      {
+        "id": 4,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Many people today work from home instead of going to a traditional office. Compare the advantages and disadvantages of remote work versus working in an office environment.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Remote work and office work each offer distinct advantages and challenges. Working from home provides flexibility and eliminates commute time, allowing for better work-life balance. Employees can customize their work environment, often leading to increased productivity and reduced stress. Companies benefit from lower overhead costs and access to a global talent pool. However, remote work can lead to isolation and difficulty collaborating with colleagues. Communication may suffer without face-to-face interactions, and some people struggle with self-discipline when working from home. Office environments, conversely, foster collaboration, mentorship, and spontaneous interactions that can spark innovation. The physical separation between work and home can also help maintain healthy boundaries. Yet offices involve commuting costs and time, rigid schedules, and potential distractions from colleagues. I believe a hybrid approach combining both remote and office work offers the best of both worlds."
+        }
+      },
+      {
+        "id": 5,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Discuss the impact of artificial intelligence on job markets. Do you think AI will create more jobs than it eliminates?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Artificial intelligence is transforming the job market in complex ways. While AI will undoubtedly eliminate certain routine and repetitive jobs, I believe it will create new opportunities we can't yet fully envision. Historically, technological revolutions have always created more jobs than they destroyed, though often requiring different skills. AI will likely replace jobs involving data processing, basic analysis, and predictable physical tasks, but it will simultaneously create demand for AI trainers, ethicists, maintenance specialists, and professionals who can work alongside AI systems. The challenge lies in workforce transition - ensuring displaced workers can acquire the necessary skills for these emerging roles. Additionally, AI may enhance existing jobs rather than replace them entirely, allowing humans to focus on creative, strategic, and interpersonal aspects of work. The key will be adapting our education systems to prepare future workers for this AI-augmented workplace."
+        }
+      },
+      {
+        "id": 6,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Should governments regulate social media platforms to combat misinformation? Discuss the potential benefits and drawbacks of such regulation.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "The regulation of social media to combat misinformation presents both necessary protections and concerning limitations. On one hand, unchecked misinformation can have serious societal consequences, from public health risks during pandemics to undermining democratic processes. Government oversight could establish baseline standards for fact-checking and accountability. However, excessive regulation risks infringing on free speech and could lead to government overreach in determining what constitutes 'truth.' There's also the challenge of enforcement - social media operates globally, while regulations are typically national. A better approach might involve collaboration between governments, tech companies, and independent fact-checkers to develop transparent, balanced policies. Platforms could be required to disclose their algorithms and moderation policies without government dictating specific content decisions. Ultimately, while some regulation may be necessary, it must be carefully designed to avoid censorship while protecting public discourse."
+        }
+      },
+      {
+        "id": 7,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Discuss the advantages and disadvantages of online shopping compared to traditional in-store shopping.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Online shopping and traditional in-store shopping each offer distinct benefits and limitations. Online shopping provides unparalleled convenience - consumers can browse and purchase items anytime from anywhere, often with more competitive pricing and a wider selection than physical stores. Detailed product information, customer reviews, and easy price comparisons enhance the decision-making process. However, online shopping lacks the tactile experience of examining products firsthand, and delayed gratification from shipping times can be frustrating. Returns are often more complicated. In-store shopping offers immediate possession of purchases, the ability to physically inspect items, and personalized assistance from sales staff. The social experience of shopping with friends or family is also lost online. Yet physical stores have limited hours, geographical constraints, and often higher prices due to overhead costs. While I appreciate the efficiency of online shopping, I still value certain in-store experiences, particularly for items where fit, quality, or personal interaction are important."
+        }
+      },
+      {
+        "id": 8,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Examine the effects of video games on children's development. Do you think the benefits outweigh the potential harms?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Video games have complex effects on children's development that depend largely on content, duration of play, and context. When played in moderation, video games can enhance cognitive skills like problem-solving, hand-eye coordination, and strategic thinking. Many games encourage perseverance, teamwork, and creativity. Educational games can make learning engaging. However, excessive gaming can lead to reduced physical activity, sleep deprivation, and social isolation. Violent game content may desensitize some children to aggression, though research on this is mixed. The key is balance and supervision. Parents should monitor game content, set reasonable time limits, and ensure gaming doesn't replace other important activities. When integrated thoughtfully into a child's routine, the benefits of gaming - particularly games designed to be educational or prosocial - can outweigh potential harms. Like any tool, video games' impact depends largely on how they're used."
+        }
+      },
+      {
+        "id": 9,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Should schools eliminate letter grades and adopt alternative assessment methods? Discuss the potential benefits and drawbacks of such a change.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "The debate over letter grades versus alternative assessments involves important considerations about learning motivation and measurement. Traditional letter grades provide a clear, standardized metric that's easily understandable for students, parents, and institutions. However, they often reduce complex learning to a single letter, encouraging performance for grades rather than deep understanding. Alternative assessments like portfolios, narrative evaluations, or competency-based systems could provide more nuanced feedback and focus on growth. These methods might reduce stress and competition while better accommodating different learning styles. However, implementing alternative assessments would require significant teacher training and time investment. Colleges and employers accustomed to letter grades might struggle to interpret alternative evaluations. A hybrid approach might be most effective - maintaining some form of grading while incorporating more qualitative feedback and project-based assessments. The ultimate goal should be assessment methods that motivate authentic learning while still providing meaningful benchmarks of achievement."
+        }
+      },
+      {
+        "id": 10,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Discuss the impact of automation on manufacturing jobs. How should society prepare workers for these changes?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Automation is transforming manufacturing in ways that require proactive societal adaptation. While automation increases efficiency and reduces costs for companies, it inevitably displaces workers performing routine tasks. This trend isn't new - technology has been changing manufacturing for centuries - but the pace is accelerating. Society should respond through education reform, emphasizing STEM skills alongside creativity and emotional intelligence that machines can't replicate. Vocational training programs should focus on maintaining and programming automated systems rather than manual tasks. Governments might consider policies like wage insurance or expanded unemployment benefits to support displaced workers during transitions. Companies benefiting from automation could be incentivized to retrain workers for new roles. Importantly, we should view this as an opportunity to shift workers into more fulfilling, less dangerous jobs rather than simply as job loss. The challenge lies in ensuring the benefits of automation are distributed equitably across society."
+        }
+      },
+      {
+        "id": 11,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Should college education be free for all students? Discuss the potential benefits and drawbacks of such a policy.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "The proposal for free college education involves weighing significant societal benefits against practical challenges. Making college free would theoretically increase accessibility, allowing students from all economic backgrounds to pursue higher education without crippling debt. This could lead to a more educated workforce, stimulate economic growth, and promote social mobility. Countries with free or low-cost university systems often have higher college attendance rates. However, implementing such a system would require substantial government funding, likely through higher taxes. There are also concerns about potential overcrowding in universities and devaluation of degrees if significantly more people earn them. A middle-ground approach might involve making community colleges and vocational programs free first, or implementing income-based repayment systems that don't burden low-earning graduates. Any free college policy would need careful design to maintain educational quality while expanding access, possibly including academic standards to prevent abuse of the system."
+        }
+      },
+      {
+        "id": 12,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Discuss the advantages and disadvantages of renewable energy sources compared to traditional fossil fuels.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Renewable energy and fossil fuels each have distinct advantages that must be considered in our energy transition. Renewable sources like solar, wind, and hydropower offer clean energy with minimal greenhouse gas emissions, crucial for combating climate change. They rely on inexhaustible resources rather than finite fossil fuel reserves. However, renewable energy faces challenges of intermittency (the sun doesn't always shine, wind doesn't always blow) and currently requires significant land use. Energy storage technology needs improvement to address these limitations. Fossil fuels, while reliable and energy-dense, produce harmful emissions and contribute to environmental degradation through extraction processes. The infrastructure for fossil fuels is well-established, whereas transitioning to renewables requires substantial new investment. Economically, renewables may create more jobs long-term but could disrupt existing energy sector workers. While the environmental case for renewables is strong, a balanced approach during transition may be necessary, possibly incorporating nuclear energy as a bridge."
+        }
+      },
+      {
+        "id": 13,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Examine the effects of globalization on local cultures. Do you think globalization leads to cultural homogenization or enrichment?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Globalization's impact on local cultures presents a complex interplay between homogenization and enrichment. While there are valid concerns about cultural homogenization - seen in the worldwide spread of fast food chains, Hollywood movies, and Western fashion - globalization also facilitates unprecedented cultural exchange. Local cultures aren't merely passive recipients but actively adapt and reinterpret global influences. For instance, while English has become a global lingua franca, it's also been transformed through various local Englishes. Similarly, world music blends traditional sounds with global genres. Globalization allows minority cultures to find international audiences through digital platforms. However, the exchange isn't entirely equal - cultures with more economic power tend to dominate. The key is finding balance, where globalization facilitates sharing without erasing local distinctiveness. When approached thoughtfully, globalization can be less about cultural imperialism and more about creating new hybrid cultures while preserving traditional roots."
+        }
+      },
+      {
+        "id": 14,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Should animals be used for scientific research? Discuss the ethical considerations and potential alternatives.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "The use of animals in scientific research presents profound ethical dilemmas that require careful consideration. Proponents argue that animal research has led to medical breakthroughs saving countless human lives, from vaccines to surgical techniques. They contend that strict regulations minimize suffering and that some research simply can't be done otherwise. However, opponents question the moral justification for causing sentient beings pain and distress, arguing that species differences often make animal models unreliable predictors of human responses. Fortunately, alternatives are emerging - advanced computer modeling, organ-on-a-chip technology, and human cell-based tests are increasingly sophisticated. While these alternatives aren't yet perfect replacements for all animal testing, they're improving rapidly. A balanced approach might involve continuing limited, highly regulated animal research where absolutely necessary while aggressively developing and adopting alternative methods. The scientific community should prioritize research that reduces and eventually eliminates animal use while still advancing medical knowledge."
+        }
+      },
+      {
+        "id": 15,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Discuss the impact of tourism on local communities. Does tourism bring more benefits or problems to destination areas?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Tourism's impact on local communities involves a delicate balance between economic benefits and cultural/environmental costs. On the positive side, tourism creates jobs, generates revenue for local businesses, and can fund infrastructure improvements and cultural preservation. Many communities rely heavily on tourism dollars. However, overtourism can strain local resources, inflate living costs for residents, and lead to environmental degradation. Cultural sites may become overcrowded, and local traditions might be commercialized for tourist consumption. The key is developing sustainable tourism practices - limiting visitor numbers at fragile sites, encouraging off-season travel, and promoting community-based tourism where locals have control and receive fair benefits. Ecotourism that emphasizes environmental responsibility can help. While tourism will always present challenges, with proper management it can be a net positive, preserving rather than exploiting local cultures and environments while providing economic opportunities."
+        }
+      },
+      {
+        "id": 16,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Examine the role of music in society. How does music influence individuals and cultures?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Music plays a multifaceted role in society that transcends mere entertainment. On a personal level, music influences mood, can motivate or relax us, and often serves as the soundtrack to significant life events. Psychologically, music therapy demonstrates its power to aid healing and emotional expression. Culturally, music preserves traditions, tells communal stories, and fosters group identity - consider how national anthems or protest songs unite people. The music industry also drives significant economic activity. Socially, musical tastes can define subcultures and generations, from jazz in the 1920s to hip-hop today. Music facilitates cross-cultural exchange while also maintaining cultural distinctiveness. In education, musical training enhances cognitive development. While digital technology has transformed how we access music, its fundamental roles remain - to express the inexpressible, to bind communities together, and to give voice to both individual and collective human experience. In many ways, a society's music reflects its soul."
+        }
+      },
+      {
+        "id": 17,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Should governments impose stricter regulations on fast food advertising, particularly to children? Discuss the potential benefits and drawbacks.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Regulating fast food advertising to children presents a compelling public health case but raises questions about government overreach. On one hand, childhood obesity rates have risen dramatically, and research shows food marketing influences children's preferences and consumption. Children lack the critical thinking to evaluate advertising claims, making them vulnerable targets. Restricting such ads could help promote healthier eating habits early in life. However, opponents argue this infringes on commercial free speech and parental responsibility. There are also practical challenges in defining what constitutes 'fast food' or 'unhealthy' products subject to restriction. A balanced approach might involve: prohibiting cartoon characters or toy giveaways with unhealthy meals; requiring clearer nutritional information in ads; or limiting ads during children's programming rather than an outright ban. Education about media literacy and nutrition might be equally important as restrictions. While government has a role in protecting public health, regulations should be carefully targeted to avoid unintended consequences."
+        }
+      },
+      {
+        "id": 18,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Discuss the advantages and disadvantages of living in a big city versus a small town.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Urban and rural living offer fundamentally different lifestyles with distinct advantages. Big cities provide abundant job opportunities, cultural amenities like museums and theaters, diverse dining options, and typically better public transportation. The density of people fosters innovation and offers more social opportunities. However, cities come with high costs of living, noise pollution, congestion, and often less personal space. Small towns offer closer-knit communities where people know their neighbors, lower costs of living, cleaner air, and easier access to nature. The pace of life tends to be slower and less stressful. Yet small towns may have limited career options, fewer amenities, and can feel isolating for some. Healthcare and specialized services are often more accessible in cities. Ultimately, the better choice depends on individual priorities - career-focused individuals might prefer cities, while those valuing community and tranquility might prefer small towns. Many seek a middle ground in suburban areas or smaller cities."
+        }
+      },
+      {
+        "id": 19,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Examine the impact of celebrity culture on society. Do celebrities have too much influence on young people?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Celebrity culture exerts significant influence on society, particularly youth, with both positive and negative effects. The pervasive media coverage of celebrities' lives creates unrealistic standards of beauty, wealth, and success that can damage young people's self-esteem. Many celebrities promote consumerism and materialism through endorsement deals. However, some celebrities use their platform responsibly to advocate for social causes or philanthropic efforts. The problem lies in the disproportionate attention given to celebrities compared to other role models like scientists or community leaders. Social media has intensified this by creating direct parasocial relationships between fans and celebrities. While celebrities will always capture public interest, we should encourage media literacy that helps young people critically evaluate celebrity influence. Schools and parents can highlight more diverse role models. Celebrities themselves could be more mindful of their impact, recognizing that with fame comes responsibility, especially when their audience includes impressionable young people."
+        }
+      },
+      {
+        "id": 20,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Should physical education be mandatory in schools? Discuss the importance of physical activity for students.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Mandatory physical education in schools is crucial for addressing growing health concerns among youth. With childhood obesity rates rising and screen time increasing, PE provides structured physical activity that many students wouldn't get otherwise. Regular exercise improves not just physical health but also cognitive function, concentration, and mental health - all beneficial for academic performance. PE also teaches teamwork, discipline, and lifelong fitness habits. However, traditional PE programs often focus on competitive sports that may alienate less athletic students. Updated curricula should offer diverse activities appealing to different interests and abilities, from yoga to dance to non-competitive games. While some argue PE takes time from academic subjects, research shows physically active students often perform better academically. Schools could integrate movement into other classes or offer active breaks. Given the clear benefits and concerning health trends, quality daily physical education should remain mandatory, though programs should evolve to be more inclusive and holistic."
+        }
+      },
+      {
+        "id": 21,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Discuss the impact of climate change on global food production. How can agriculture adapt to these changes?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Climate change poses significant challenges to global food systems that require urgent adaptation. Rising temperatures, changing precipitation patterns, and increased extreme weather events are already affecting crop yields and livestock productivity. Some regions face prolonged droughts while others experience excessive rainfall. Warmer temperatures expand pest ranges and accelerate soil nutrient depletion. Adaptation strategies must include developing drought-resistant crop varieties, improving water management through precision irrigation, and adopting regenerative agricultural practices that enhance soil health. Diversifying crops can reduce climate vulnerability. Technological solutions like vertical farming and hydroponics may help in some contexts. Farmers will need access to climate information and financial support to implement changes. International cooperation is crucial since climate impacts don't respect borders - food insecurity in one region can have global repercussions. While adaptation is essential, mitigation remains critical to limit further climate disruption. The agricultural sector must both adapt to changing conditions and reduce its own substantial greenhouse gas emissions to help stabilize the climate."
+        }
+      },
+      {
+        "id": 22,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Examine the role of public libraries in the digital age. Are they still necessary when so much information is available online?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Public libraries remain vital community institutions despite the digital revolution, though their roles are evolving. While libraries were traditionally book repositories, they now serve as digital access points, offering free internet, computer access, and digital literacy training - crucial for bridging the digital divide. Libraries curate reliable information in an era of online misinformation. They provide quiet study spaces many lack at home, host community programs, and offer resources like makerspaces with 3D printers. For children, libraries foster early literacy through storytimes and summer reading programs. Many provide career counseling and resume help. Importantly, libraries remain one of few free, inclusive public spaces open to all regardless of socioeconomic status. While e-books and online research have changed how some use libraries, these institutions have adapted by offering digital lending and tech assistance. Rather than becoming obsolete, libraries have transformed into community hubs that combine physical and digital resources while maintaining their core mission of equitable access to information."
+        }
+      },
+      {
+        "id": 23,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Should schools teach financial literacy as a mandatory subject? Discuss the potential benefits of such education.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Mandatory financial literacy education in schools is essential for preparing students for real-world economic challenges. Many young adults enter independence without understanding basic personal finance concepts like budgeting, credit, taxes, or investing. This knowledge gap can lead to crippling debt, poor credit, and inadequate retirement planning. A well-designed financial literacy curriculum could cover: responsible credit card use, student loan implications, comparing financial products, and long-term wealth building. These skills are arguably as important as traditional academic subjects for students' future wellbeing. Potential benefits include reduced personal debt levels, better preparedness for major financial decisions, and increased economic mobility. Critics might argue this is parents' responsibility, but not all families have this knowledge to pass on. While adding requirements strains school schedules, financial literacy could be integrated into existing math or social studies courses. Given the profound impact financial decisions have on life outcomes, schools have a responsibility to equip students with these crucial life skills."
+        }
+      },
+      {
+        "id": 24,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Discuss the advantages and disadvantages of electric vehicles compared to traditional gasoline-powered cars.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Electric vehicles (EVs) and traditional gasoline cars each have distinct advantages in today's automotive landscape. EVs offer significant environmental benefits with zero tailpipe emissions, reducing urban air pollution and greenhouse gas contributions (especially when charged with renewable energy). They're cheaper to fuel and maintain with fewer moving parts. Performance-wise, EVs provide instant torque and smooth acceleration. However, EVs currently have higher upfront costs, though this is decreasing. Range anxiety persists despite improving battery technology, and charging infrastructure remains uneven, particularly for apartment dwellers. Charging times are longer than refueling gasoline cars, though fast-charging is improving. Gasoline vehicles offer greater range, established refueling infrastructure, and lower purchase prices, but contribute to climate change and are subject to fuel price volatility. As battery technology advances and renewable energy grows, EVs' advantages will likely outweigh their current limitations. For now, the better choice depends on driving needs, though the long-term trend clearly favors electrification as technology addresses current drawbacks."
+        }
+      },
+      {
+        "id": 25,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Examine the impact of space exploration on technological advancement. Is the cost of space programs justified by their benefits?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Space exploration has driven significant technological innovations that justify its substantial costs, though priorities should be carefully balanced. Many everyday technologies originated from space programs - from satellite communications and GPS to medical imaging and water purification systems. The challenges of space have spurred advances in materials science, robotics, and computing. Space research also provides unique perspectives on climate change and planetary science. However, critics argue these funds could address pressing Earthbound issues like poverty or healthcare. While these concerns are valid, space budgets are relatively small compared to other government expenditures. Private space companies are reducing costs through innovation. The inspirational value of space exploration shouldn't be underestimated either - it motivates STEM education and international cooperation. A balanced approach would continue space exploration while ensuring it addresses practical needs through spinoff technologies and Earth observation. As we develop capabilities like asteroid mining or space-based solar power, the economic returns may eventually outweigh the investments. Space exploration represents both practical innovation and the human drive to explore - both worthy of measured support."
+        }
+      },
+      {
+        "id": 26,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Should professional athletes be role models for young people? Discuss the responsibilities that come with athletic fame.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "The question of whether professional athletes should be role models presents a complex interplay between public expectation and personal responsibility. While athletes don't choose to be role models, their visibility inevitably influences young fans who admire their skills. Many athletes embrace this responsibility, using their platform to promote education, charity work, or social causes. However, expecting flawless personal conduct from athletes is unrealistic - they're human and make mistakes like anyone else. The problem arises when society elevates athletic achievement above character in determining who we celebrate. Rather than expecting all athletes to be role models, we should recognize that true role modeling is a choice, not an automatic consequence of sports success. Athletes who do embrace this role should be commended, while young people should be encouraged to look to diverse role models beyond sports. Parents and educators can help children separate athletic performance from personal conduct when admiring sports figures. Ultimately, while we shouldn't demand all athletes be role models, those who choose this path can have profoundly positive impacts."
+        }
+      },
+      {
+        "id": 27,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Discuss the impact of immigration on host countries. Do the economic and cultural benefits outweigh the challenges?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Immigration presents both opportunities and challenges for host countries, with evidence suggesting the benefits typically outweigh the costs when managed effectively. Economically, immigrants often fill labor shortages, contribute to innovation, and pay more in taxes than they use in services over time. They start businesses at higher rates than native-born citizens. Culturally, immigration enriches host societies with diverse perspectives, cuisines, and traditions while helping maintain population growth in aging nations. However, rapid immigration can strain infrastructure and public services if not properly planned. Cultural integration requires effort from both immigrants and host communities to prevent segregation. Concerns about wage depression in certain sectors are valid but often overstated. Successful immigration policies balance border control with pathways for legal migration, invest in integration programs, and address legitimate concerns while countering xenophobia. Historically, nations that embrace immigration's dynamism while managing its challenges tend to prosper economically and culturally. The key is developing fair, flexible systems that maximize immigration's benefits while addressing its complexities."
+        }
+      },
+      {
+        "id": 28,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Examine the effects of social media on political discourse. Has it made democratic participation stronger or more polarized?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Social media's impact on political discourse is profoundly double-edged, simultaneously democratizing participation while exacerbating polarization. On one hand, these platforms have increased political engagement, especially among younger demographics, by lowering barriers to information and activism. Movements like #MeToo or climate strikes gained momentum through social media. Citizens can directly interact with leaders and bypass traditional media gatekeepers. However, social media algorithms prioritize emotionally charged content that drives engagement, often amplifying extreme views and misinformation. The platforms facilitate echo chambers where users only encounter like-minded perspectives. Discourse has become more reactive and less nuanced, with complex issues reduced to viral slogans. Foreign actors exploit these platforms to sow division. While social media has theoretically made democracy more accessible, it has also made political discourse more performative and less substantive. Reforming platform algorithms to prioritize accuracy over engagement, improving media literacy, and developing healthier online discourse norms could help realize social media's democratic potential while mitigating its harms."
+        }
+      },
+      {
+        "id": 29,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Should junk food be banned in schools? Discuss the potential impact on children's health and eating habits.",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Banning junk food in schools presents a compelling public health measure with some important considerations. Removing access to sugary snacks and drinks during school hours would reduce empty calorie consumption and help establish healthier eating patterns. Children spend significant time at school, making it an ideal environment to model good nutrition. Studies show school food policies can positively influence children's preferences and reduce obesity rates. However, outright bans might lead to backlash or underground trading of forbidden foods. A more effective approach might combine nutrition standards with education - teaching why certain foods should be occasional treats rather than daily choices. Any policy should ensure replacement options are appealing and affordable. Concerns about nanny-state overreach must be balanced against schools' responsibility for student wellbeing. While home environments vary, schools can provide consistent messaging about nutrition. Complete bans may be less effective than comprehensive wellness programs that include physical activity, nutrition education, and access to healthy foods - creating an environment where healthy choices become the easy, normal choices."
+        }
+      },
+      {
+        "id": 30,
+        "preparation": {
+          "title": "Prepare to write about the topic below",
+          "subtitle": "You will have 5 minutes to write"
+        },
+        "writing": {
+          "title": "Write about the topic below for 5 minutes"
+        },
+        "topic": "Discuss the advantages and disadvantages of standardized testing in education. Do these tests accurately measure student learning?",
+        "results": {
+          "title": "Write about the topic below for 5 minutes",
+          "sampleTitle": "Review sample answer:",
+          "sampleAnswer": "Standardized testing in education offers both practical benefits and significant limitations as a measure of student learning. These tests provide an objective, comparable metric across schools and districts, helping identify achievement gaps and allocate resources. They ensure basic competency standards are met. However, standardized tests often fail to capture critical thinking, creativity, or practical application of knowledge - focusing instead on rote memorization and test-taking skills. The pressure to perform can lead to narrowed curricula where teachers 'teach to the test,' sacrificing richer learning experiences. Test anxiety may prevent some students from demonstrating their true capabilities. While helpful for systemic assessment, standardized tests are imperfect measures of individual student ability or teacher effectiveness. Alternative assessments like portfolios, projects, or performance tasks might provide more comprehensive evaluations. A balanced approach would use standardized tests sparingly as one of multiple measures, complemented by other assessment methods that capture the full range of student learning and growth. The goal should be assessments that support learning rather than merely audit it."
+        }
+      }
+    ]
+  }

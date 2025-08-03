@@ -1,0 +1,338 @@
+{
+    "config": {
+      "title": "Select the best option for each missing word",
+      "shuffleQuestions": true
+    },
+    "questions": [
+      {
+        "id": 1,
+        "title": "Urban Transportation",
+        "passage": "Modern cities face significant challenges in managing urban transportation. Traffic # has become a major issue affecting millions of commuters daily. Many cities are implementing innovative solutions such as bike-sharing programs, electric buses, and smart traffic management systems. These initiatives aim to # carbon emissions while improving the quality of life for residents. Public transportation networks are being expanded and modernized to encourage more people to use # travel options.",
+        "questions": [
+          {
+            "question": "Traffic _____ has become a major issue",
+            "options": ["pollution", "congestion", "accidents", "noise"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "These initiatives aim to _____ carbon emissions",
+            "options": ["increase", "reduce", "measure", "ignore"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Encourage people to use _____ travel options",
+            "options": ["expensive", "sustainable", "private", "luxury"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Digital Learning Revolution",
+        "passage": "The education sector has undergone a dramatic transformation with the rise of digital learning platforms. Online courses have made education more # to people worldwide, breaking down geographical barriers. Students can now learn from expert instructors regardless of their location. Interactive multimedia content has # the learning experience, making complex subjects easier to understand. Virtual classrooms provide real-time # opportunities between students and teachers.",
+        "questions": [
+          {
+            "question": "Online courses have made education more _____",
+            "options": ["expensive", "accessible", "difficult", "limited"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Interactive multimedia content has _____ the learning experience",
+            "options": ["complicated", "enhanced", "reduced", "eliminated"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Virtual classrooms provide real-time _____ opportunities",
+            "options": ["competition", "collaboration", "evaluation", "isolation"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Sustainable Agriculture",
+        "passage": "Farmers around the world are adopting sustainable agricultural practices to protect the environment while maintaining productivity. Crop rotation techniques help preserve soil # and reduce the need for chemical fertilizers. Precision farming uses advanced technology to monitor soil conditions and optimize water usage. Integrated pest management reduces # on harmful pesticides by using natural predators and organic alternatives. These methods not only benefit the environment but also improve long-term farm #.",
+        "questions": [
+          {
+            "question": "Crop rotation helps preserve soil _____",
+            "options": ["color", "nutrients", "temperature", "depth"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Integrated pest management reduces _____ on harmful pesticides",
+            "options": ["reliance", "spending", "research", "awareness"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "These methods improve long-term farm _____",
+            "options": ["size", "profitability", "location", "appearance"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Space Tourism Industry",
+        "passage": "The space tourism industry is experiencing rapid # as private companies develop new technologies to make space travel more accessible. Several companies have successfully launched civilians into space, marking a new era in commercial spaceflight. These missions demonstrate that space travel is no longer # to professional astronauts. Advanced safety protocols and rigorous training programs ensure passenger safety during these extraordinary journeys. The industry is expected to expand significantly over the next #.",
+        "questions": [
+          {
+            "question": "The space tourism industry is experiencing rapid _____",
+            "options": ["decline", "growth", "problems", "criticism"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Space travel is no longer _____ to professional astronauts",
+            "options": ["available", "limited", "interesting", "dangerous"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "The industry is expected to expand over the next _____",
+            "options": ["month", "decade", "century", "week"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Ocean Conservation Efforts",
+        "passage": "Marine biologists and environmental organizations are working together to protect ocean ecosystems from various threats. Plastic pollution poses a significant # to marine life, with millions of tons of waste entering the oceans annually. Coral reef restoration projects aim to rebuild damaged ecosystems and preserve biodiversity. Marine protected areas have been established to create safe # for endangered species. Educational programs raise public awareness about the importance of ocean #.",
+        "questions": [
+          {
+            "question": "Plastic pollution poses a significant _____ to marine life",
+            "options": ["benefit", "danger", "opportunity", "solution"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Marine protected areas create safe _____ for endangered species",
+            "options": ["havens", "problems", "competitions", "distances"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Educational programs raise awareness about ocean _____",
+            "options": ["pollution", "conservation", "exploration", "tourism"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Renewable Energy Transition",
+        "passage": "Countries worldwide are transitioning from fossil fuels to renewable energy sources to combat climate change. Solar and wind power technologies have become more # and cost-effective in recent years. Energy storage systems are crucial for managing the intermittent nature of renewable energy generation. Smart grids enable better distribution and # of clean energy across power networks. This transition creates new job opportunities in the green energy sector while reducing greenhouse gas # significantly.",
+        "questions": [
+          {
+            "question": "Solar and wind power have become more _____",
+            "options": ["expensive", "efficient", "dangerous", "rare"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Smart grids enable better distribution and _____ of clean energy",
+            "options": ["waste", "management", "pollution", "destruction"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "This transition reduces greenhouse gas _____ significantly",
+            "options": ["production", "emissions", "research", "benefits"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Urban Farming Movement",
+        "passage": "Urban farming is gaining # as cities seek sustainable food production solutions. Vertical gardens and rooftop farms maximize limited urban space for growing fresh produce. Hydroponic systems allow crops to grow without soil, using nutrient-rich water solutions instead. Community gardens bring neighborhoods together while providing access to fresh, locally grown food. These initiatives reduce food transportation # and carbon emissions associated with long-distance shipping. Urban farming also creates educational # for people to learn about agriculture and sustainable living practices.",
+        "questions": [
+          {
+            "question": "Urban farming is gaining _____",
+            "options": ["criticism", "popularity", "problems", "expenses"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "These initiatives reduce food transportation _____",
+            "options": ["quality", "costs", "speed", "safety"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Urban farming creates educational _____ for people",
+            "options": ["problems", "opportunities", "barriers", "costs"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Artificial Intelligence in Healthcare",
+        "passage": "Artificial intelligence is # healthcare by improving diagnostic accuracy and treatment outcomes. Machine learning algorithms can analyze medical images faster and more accurately than traditional methods. AI-powered systems assist doctors in identifying diseases at earlier stages, leading to better patient outcomes. Predictive analytics help hospitals manage # more efficiently and reduce waiting times. However, ethical considerations and data privacy concerns must be # as AI integration in healthcare continues to expand.",
+        "questions": [
+          {
+            "question": "Artificial intelligence is _____ healthcare",
+            "options": ["destroying", "revolutionizing", "ignoring", "complicating"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Predictive analytics help hospitals manage _____ more efficiently",
+            "options": ["patients", "resources", "buildings", "staff"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ethical considerations must be _____ as AI integration expands",
+            "options": ["ignored", "addressed", "avoided", "delayed"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Climate Change Adaptation",
+        "passage": "Communities around the world are developing adaptation strategies to cope with the effects of climate change. Rising sea levels # coastal cities, prompting the construction of sea walls and flood barriers. Drought-resistant crops are being developed to ensure food security in regions experiencing changing precipitation patterns. Early warning systems help communities # for extreme weather events such as hurricanes and heatwaves. Green infrastructure projects provide natural solutions for managing stormwater and reducing urban heat #.",
+        "questions": [
+          {
+            "question": "Rising sea levels _____ coastal cities",
+            "options": ["benefit", "threaten", "ignore", "support"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Early warning systems help communities _____ for extreme weather",
+            "options": ["ignore", "prepare", "celebrate", "avoid"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Green infrastructure reduces urban heat _____",
+            "options": ["benefits", "islands", "solutions", "systems"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Digital Privacy Rights",
+        "passage": "As digital technology becomes increasingly integrated into daily life, protecting personal privacy has become a critical concern. Data breaches expose sensitive information, highlighting # in digital systems. New legislation aims to give individuals greater control over their personal data and how it is used by companies. Encryption technologies help secure communications and protect sensitive information from unauthorized #. Privacy-focused search engines and messaging apps offer alternatives to mainstream platforms that collect extensive user #.",
+        "questions": [
+          {
+            "question": "Data breaches highlight _____ in digital systems",
+            "options": ["strengths", "vulnerabilities", "benefits", "features"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Encryption protects information from unauthorized _____",
+            "options": ["sharing", "access", "deletion", "creation"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mainstream platforms collect extensive user _____",
+            "options": ["benefits", "data", "payments", "complaints"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Sustainable Tourism",
+        "passage": "The tourism industry is increasingly focusing on sustainable practices to minimize environmental impact while maximizing benefits for local communities. Eco-friendly accommodations are implementing green technologies such as solar panels and water recycling systems. Local tour operators are promoting # tourism that respects natural habitats and wildlife. Community-based tourism initiatives ensure that tourism revenue directly # local residents and preserves cultural heritage. Travelers are becoming more conscious of their environmental footprint and seeking # travel experiences.",
+        "questions": [
+          {
+            "question": "Local tour operators are promoting _____ tourism",
+            "options": ["mass", "responsible", "expensive", "luxury"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Tourism revenue directly _____ local residents",
+            "options": ["ignores", "benefits", "harms", "excludes"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Travelers are seeking _____ travel experiences",
+            "options": ["harmful", "sustainable", "expensive", "quick"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Mental Health Awareness",
+        "passage": "Mental health awareness has gained significant # in recent years as societies recognize its importance for overall well-being. Workplace mental health programs are being implemented to support employee wellness and reduce stress-related absences. Educational institutions are incorporating mental health resources and counseling services to help students cope with academic pressures. Social media campaigns are working to reduce the # associated with mental health issues and encourage people to seek help. Early intervention and proper treatment can significantly improve # for individuals experiencing mental health challenges.",
+        "questions": [
+          {
+            "question": "Mental health awareness has gained significant _____",
+            "options": ["criticism", "attention", "problems", "resistance"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Social media campaigns work to reduce the _____ associated with mental health",
+            "options": ["awareness", "stigma", "treatment", "support"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Early intervention can significantly improve _____ for individuals",
+            "options": ["problems", "outcomes", "costs", "barriers"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Food Security",
+        "passage": "Global food security remains a critical challenge as the world population continues to grow while climate change affects agricultural productivity. Innovative farming techniques such as vertical farming and precision agriculture are helping to increase crop # while using fewer resources. Food waste reduction initiatives are targeting the significant amount of food that is lost throughout the supply chain. International cooperation is essential for addressing hunger and malnutrition in # regions. Sustainable food systems must balance productivity, environmental protection, and social #.",
+        "questions": [
+          {
+            "question": "Innovative farming techniques help increase crop _____",
+            "options": ["problems", "yields", "costs", "diseases"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "International cooperation addresses hunger in _____ regions",
+            "options": ["wealthy", "vulnerable", "developed", "urban"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Sustainable food systems must balance productivity and social _____",
+            "options": ["problems", "equity", "costs", "barriers"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Cybersecurity",
+        "passage": "As our dependence on digital technology grows, cybersecurity has become increasingly important for protecting personal and organizational data. Cyber # are becoming more sophisticated, targeting everything from individual computers to critical infrastructure. Organizations are investing heavily in cybersecurity measures, including firewalls, encryption, and employee training programs. The shortage of skilled cybersecurity professionals represents a significant # for the industry. Regular software updates and strong password policies are essential # practices for maintaining digital security.",
+        "questions": [
+          {
+            "question": "Cyber _____ are becoming more sophisticated",
+            "options": ["benefits", "attacks", "solutions", "tools"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "The shortage of professionals represents a significant _____",
+            "options": ["opportunity", "challenge", "benefit", "solution"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Strong password policies are essential _____ practices",
+            "options": ["harmful", "security", "expensive", "complex"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Biodiversity Conservation",
+        "passage": "Biodiversity conservation is crucial for maintaining healthy ecosystems and ensuring the survival of countless species. Habitat # is one of the primary threats to biodiversity, as human activities continue to encroach on natural environments. Conservation efforts include establishing protected areas, wildlife corridors, and breeding programs for endangered species. Scientific research helps us understand the complex relationships between different species and their # requirements. Public education and community involvement are essential for creating long-term # strategies that benefit both wildlife and human communities.",
+        "questions": [
+          {
+            "question": "Habitat _____ is a primary threat to biodiversity",
+            "options": ["protection", "destruction", "improvement", "expansion"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Research helps understand species and their _____ requirements",
+            "options": ["financial", "habitat", "social", "educational"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Community involvement creates long-term _____ strategies",
+            "options": ["harmful", "conservation", "expensive", "temporary"],
+            "correctAnswer": 1
+          }
+        ]
+      }
+    ]
+  }

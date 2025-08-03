@@ -1,0 +1,85 @@
+{
+    "config": {
+      "title": "Speak About the Photo",
+      "shuffleQuestions": true,
+      "prepareTime": 15,
+      "speakingTime": 90
+    },
+    "questions": [
+      {
+        "id": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+        "sampleAnswer": "In this beautiful forest scene, I can see tall evergreen trees stretching towards a cloudy sky. The forest appears dense and lush, with various shades of green creating a natural canopy. In the foreground, there's what looks like a grassy clearing or meadow area. The lighting suggests it might be during the day, but the clouds give the scene a somewhat moody atmosphere. This type of forest environment is typical of temperate regions and provides habitat for many wildlife species. The composition creates a sense of depth and natural beauty that would be perfect for hiking or nature photography."
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "sampleAnswer": "This stunning mountain landscape shows a dramatic range of snow-capped peaks against a bright blue sky. The mountains appear to be quite tall and imposing, with white snow covering their upper elevations. In the foreground, there's a valley with what looks like a lake or body of water reflecting the mountains. The contrast between the dark rocky slopes and the bright white snow creates a striking visual effect. This type of alpine scenery is characteristic of high-altitude mountain ranges and would be a popular destination for mountaineering, skiing, or scenic tourism. The clear weather and good visibility make this an ideal day for outdoor activities or photography."
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
+        "sampleAnswer": "This beautiful beach scene captures a perfect tropical paradise. I can see crystal clear turquoise water meeting pristine white sand. The water appears to be very shallow near the shore, creating those lovely light blue colors. There are a few puffy white clouds scattered across a bright blue sky, suggesting perfect weather conditions. The beach looks completely untouched and peaceful, without any people or development visible. This type of pristine coastline is often found on tropical islands and represents the kind of destination many people dream of visiting for relaxation and swimming. The composition and colors create a very serene and inviting atmosphere."
+      },
+      {
+        "id": 4,
+        "imageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "sampleAnswer": "This urban cityscape shows a modern metropolitan area with numerous tall buildings and skyscrapers. The architecture appears to be contemporary, with glass and steel structures reaching high into the sky. From this aerial or elevated perspective, I can see the density of the urban development and how the buildings are arranged in a grid-like pattern typical of many major cities. The lighting suggests this photo was taken during daytime, and the visibility is quite good, allowing us to see the details of the urban landscape. This type of city environment represents modern urban planning and development, and would be home to millions of people working in various industries from finance to technology."
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
+        "sampleAnswer": "This image shows a beautiful lakeside scene with crystal clear water and what appears to be a wooden dock or pier extending into the lake. The water is so transparent that you can see right down to the bottom, suggesting this is a very clean, pristine natural environment. There are mountains or hills visible in the background, creating a scenic backdrop. The wooden structure looks well-maintained and provides a perfect spot for fishing, swimming, or simply enjoying the peaceful water views. This type of setting is ideal for outdoor recreation and relaxation, and represents the kind of natural beauty that attracts visitors to lake regions around the world."
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "sampleAnswer": "In this charming garden scene, I can see a variety of colorful flowers arranged in what appears to be a well-maintained flower bed or garden border. There are different types of blooms in various colors including what looks like roses, daisies, and other flowering plants. The garden appears to be professionally landscaped with careful attention to color coordination and plant placement. Behind the flowers, there seems to be some green foliage and possibly trees or shrubs providing a natural backdrop. This type of garden design requires regular care and maintenance, and represents the kind of beautiful outdoor space that many gardening enthusiasts aspire to create in their own yards."
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+        "sampleAnswer": "This image captures a cozy indoor cafe or restaurant scene. I can see wooden tables and chairs arranged in a typical dining establishment layout. The lighting appears warm and inviting, creating a comfortable atmosphere for customers. There seem to be some decorative elements on the walls and possibly some plants or artwork that add to the ambiance. The wooden furniture gives the space a rustic or traditional feel, which is popular in many coffee shops and casual dining restaurants. This type of interior design is meant to make customers feel relaxed and welcome, encouraging them to stay and enjoy their food or drinks in a pleasant environment."
+      },
+      {
+        "id": 8,
+        "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "sampleAnswer": "This photograph shows a busy office environment with multiple workstations and employees. I can see people working at their desks with computers, which is typical of modern corporate offices. The workspace appears to be an open-plan design, where multiple employees share a large common area rather than having individual private offices. There are office chairs, desks, and computer equipment visible throughout the space. The lighting looks like typical office fluorescent or LED lighting designed for productivity. This type of work environment is common in many industries including technology, finance, and consulting, where collaboration and communication between team members is important."
+      },
+      {
+        "id": 9,
+        "imageUrl": "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "sampleAnswer": "This image shows what appears to be a modern library or study space. I can see bookshelves lined with books, and what looks like reading tables or study areas where people can sit and work. The architecture appears contemporary with clean lines and good lighting designed for reading and studying. There might be some people using the space for research or study. Libraries like this serve as important community resources, providing access to books, digital resources, and quiet spaces for learning. The design looks welcoming and functional, with careful attention to creating an environment that supports concentration and learning activities."
+      },
+      {
+        "id": 10,
+        "imageUrl": "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "sampleAnswer": "This delicious-looking image shows what appears to be a gourmet meal or dish presented on a plate. The food looks professionally prepared and artistically plated, suggesting this might be from a restaurant or high-end dining establishment. I can see various colors and textures that indicate multiple ingredients have been carefully combined and arranged. The presentation style suggests attention to both taste and visual appeal, which is characteristic of fine dining. The lighting and photography also enhance the appetizing appearance of the dish. This type of culinary presentation requires skill and creativity from the chef, and represents the kind of dining experience that food enthusiasts seek out."
+      },
+      {
+        "id": 11,
+        "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1412&q=80",
+        "sampleAnswer": "This image shows a modern shopping mall or retail center with multiple levels and stores. I can see escalators connecting different floors, and what appears to be various retail shops and boutiques throughout the space. The architecture looks contemporary with plenty of lighting to create a bright, welcoming shopping environment. There seem to be people moving through the space, which is typical of active shopping centers. The design includes wide walkways and open areas that allow shoppers to move easily between stores. This type of retail environment is designed to encourage browsing and purchasing, with stores strategically placed to maximize foot traffic and sales opportunities."
+      },
+      {
+        "id": 12,
+        "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "sampleAnswer": "This image captures a peaceful park or recreational area with green grass and trees. I can see what appears to be a well-maintained public space designed for relaxation and outdoor activities. There are mature trees providing shade and creating a natural, pleasant environment. The grass looks healthy and well-cared for, suggesting regular maintenance by park services. This type of urban green space is important for community well-being, providing residents with a place to exercise, relax, and enjoy nature even in urban environments. Parks like this often host various activities like picnics, sports, and community events, making them valuable social gathering places."
+      },
+      {
+        "id": 13,
+        "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "sampleAnswer": "This image shows what appears to be a modern workplace or co-working space with people collaborating on projects. I can see individuals working together around tables or workstations, which suggests a collaborative work environment. The space looks designed to facilitate teamwork and communication, with an open layout that allows people to interact easily. There appear to be computers and other work equipment visible, indicating this is likely a technology or creative industry workplace. The lighting and overall atmosphere seem conducive to productivity and innovation. This type of work environment has become increasingly popular as companies recognize the value of collaboration and flexible work arrangements."
+      },
+      {
+        "id": 14,
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "sampleAnswer": "This image shows a beautiful gymnasium or fitness center with modern exercise equipment. I can see various types of workout machines and equipment arranged throughout the space, designed to accommodate different types of fitness activities. The facility appears to be well-lit and spacious, creating an inviting environment for people to exercise. There might be some people using the equipment, which shows that it's an active, functioning fitness center. The clean, modern design suggests this is a professional facility that takes pride in maintaining high standards for its members. This type of fitness center plays an important role in promoting health and wellness in the community."
+      },
+      {
+        "id": 15,
+        "imageUrl": "https://images.unsplash.com/photo-1532453288672-3a27e9be9ce9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1464&q=80",
+        "sampleAnswer": "This image captures a vibrant farmers market or outdoor market scene. I can see various fresh produce and goods displayed on tables or stands, with what appears to be vendors selling their products. The atmosphere looks lively and community-oriented, with people browsing and shopping for fresh, local products. There are likely fruits, vegetables, and other locally-produced items available for purchase. The outdoor setting and informal arrangement of goods is characteristic of traditional farmers markets, which serve as important community gathering places. These markets support local agriculture and provide consumers with access to fresh, seasonal produce while fostering connections between producers and consumers."
+      }
+    ]
+  }
