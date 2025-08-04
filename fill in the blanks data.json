@@ -1,200 +1,200 @@
 {
-    "config": {
-      "title": "Complete the sentence with the correct word",
-      "shuffleQuestions": true
+  "config": {
+    "title": "Complete the sentence with the correct word",
+    "shuffleQuestions": true
+  },
+  "questions": [
+    {
+      "id": 1,
+      "sentence": "I need to # my water bottle.",
+      "correctAnswer": "fill",
+      "alternatives": ["refill", "add water to"],
+      "type": "complete"
     },
-    "questions": [
-      {
-        "id": 1,
-        "sentence": "A stream during a long hike is a perfect place to # your water bottle with water.",
-        "correctAnswer": "fill",
-        "alternatives": ["refill", "replenish"],
-        "type": "complete"
-      },
-      {
-        "id": 2,
-        "sentence": "The teacher asked us to # our homework before the deadline.",
-        "correctAnswer": "submit",
-        "alternatives": ["hand in", "turn in"],
-        "type": "complete"
-      },
-      {
-        "id": 3,
-        "sentence": "She decided to # her old clothes to charity.",
-        "correctAnswer": "donate",
-        "alternatives": ["give", "contribute"],
-        "type": "partial",
-        "visibleLetters": "do__te"
-      },
-      {
-        "id": 4,
-        "sentence": "The restaurant will # at 10 PM tonight.",
-        "correctAnswer": "close",
-        "alternatives": ["shut", "end service"],
-        "type": "partial",
-        "visibleLetters": "cl__e"
-      },
-      {
-        "id": 5,
-        "sentence": "Please # the door when you leave the room.",
-        "correctAnswer": "lock",
-        "alternatives": ["secure", "fasten"],
-        "type": "partial",
-        "visibleLetters": "l_ck"
-      },
-      {
-        "id": 6,
-        "sentence": "The students need to # for their final exams next week.",
-        "correctAnswer": "study",
-        "alternatives": ["prepare", "review"],
-        "type": "partial",
-        "visibleLetters": "st_dy"
-      },
-      {
-        "id": 7,
-        "sentence": "Can you # me with this heavy box?",
-        "correctAnswer": "help",
-        "alternatives": ["assist", "aid"],
-        "type": "complete"
-      },
-      {
-        "id": 8,
-        "sentence": "The company will # a new product next month.",
-        "correctAnswer": "launch",
-        "alternatives": ["release", "introduce"],
-        "type": "partial",
-        "visibleLetters": "la_n_h"
-      },
-      {
-        "id": 9,
-        "sentence": "I need to # my passport before traveling abroad.",
-        "correctAnswer": "renew",
-        "alternatives": ["update", "extend"],
-        "type": "partial",
-        "visibleLetters": "r_n_w"
-      },
-      {
-        "id": 10,
-        "sentence": "The children love to # in the park after school.",
-        "correctAnswer": "play",
-        "alternatives": ["have fun", "enjoy themselves"],
-        "type": "complete"
-      },
-      {
-        "id": 11,
-        "sentence": "We should # early to avoid traffic jams.",
-        "correctAnswer": "leave",
-        "alternatives": ["depart", "start"],
-        "type": "partial",
-        "visibleLetters": "lea_e"
-      },
-      {
-        "id": 12,
-        "sentence": "The doctor will # the patient's condition tomorrow.",
-        "correctAnswer": "examine",
-        "alternatives": ["check", "evaluate"],
-        "type": "partial",
-        "visibleLetters": "ex_m_ne"
-      },
-      {
-        "id": 13,
-        "sentence": "Please # your seatbelt during the flight.",
-        "correctAnswer": "fasten",
-        "alternatives": ["secure", "buckle"],
-        "type": "partial",
-        "visibleLetters": "f_st_n"
-      },
-      {
-        "id": 14,
-        "sentence": "The artist will # a beautiful painting for the exhibition.",
-        "correctAnswer": "create",
-        "alternatives": ["make", "produce"],
-        "type": "partial",
-        "visibleLetters": "cr__te"
-      },
-      {
-        "id": 15,
-        "sentence": "I forgot to # my phone before leaving home.",
-        "correctAnswer": "charge",
-        "alternatives": ["power up", "recharge"],
-        "type": "partial",
-        "visibleLetters": "ch_r_e"
-      },
-      {
-        "id": 16,
-        "sentence": "The team needs to # harder to win the championship.",
-        "correctAnswer": "practice",
-        "alternatives": ["train", "work"],
-        "type": "partial",
-        "visibleLetters": "pr_ct_ce"
-      },
-      {
-        "id": 17,
-        "sentence": "She will # her presentation to the board next week.",
-        "correctAnswer": "present",
-        "alternatives": ["show", "deliver"],
-        "type": "partial",
-        "visibleLetters": "pr_s_nt"
-      },
-      {
-        "id": 18,
-        "sentence": "The store will # a big sale during the holiday season.",
-        "correctAnswer": "offer",
-        "alternatives": ["provide", "have"],
-        "type": "complete"
-      },
-      {
-        "id": 19,
-        "sentence": "Please # the instructions carefully before starting.",
-        "correctAnswer": "read",
-        "alternatives": ["review", "study"],
-        "type": "complete"
-      },
-      {
-        "id": 20,
-        "sentence": "The mechanic will # my car engine this afternoon.",
-        "correctAnswer": "repair",
-        "alternatives": ["fix", "service"],
-        "type": "partial",
-        "visibleLetters": "r_p_ir"
-      },
-      {
-        "id": 21,
-        "sentence": "The weather forecast says it will # tomorrow.",
-        "correctAnswer": "rain",
-        "alternatives": ["pour", "drizzle"],
-        "type": "complete"
-      },
-      {
-        "id": 22,
-        "sentence": "I need to # my appointment with the dentist.",
-        "correctAnswer": "cancel",
-        "alternatives": ["postpone", "reschedule"],
-        "type": "partial",
-        "visibleLetters": "c_n_el"
-      },
-      {
-        "id": 23,
-        "sentence": "The chef will # a special dish for tonight's dinner.",
-        "correctAnswer": "prepare",
-        "alternatives": ["cook", "make"],
-        "type": "partial",
-        "visibleLetters": "pr_p_re"
-      },
-      {
-        "id": 24,
-        "sentence": "Don't forget to # your homework tomorrow.",
-        "correctAnswer": "bring",
-        "alternatives": ["carry", "take"],
-        "type": "complete"
-      },
-      {
-        "id": 25,
-        "sentence": "The movie will # at 8 PM in the main theater.",
-        "correctAnswer": "start",
-        "alternatives": ["begin", "commence"],
-        "type": "partial",
-        "visibleLetters": "st_rt"
-      }
-    ]
-  }
+    {
+      "id": 2,
+      "sentence": "Please # your homework today.",
+      "correctAnswer": "submit",
+      "alternatives": ["give", "hand in"],
+      "type": "complete"
+    },
+    {
+      "id": 3,
+      "sentence": "She wants to # her old books.",
+      "correctAnswer": "donate",
+      "alternatives": ["give", "sell"],
+      "type": "partial",
+      "visibleLetters": "do__te"
+    },
+    {
+      "id": 4,
+      "sentence": "The shop will # at 9 PM.",
+      "correctAnswer": "close",
+      "alternatives": ["shut", "end"],
+      "type": "partial",
+      "visibleLetters": "cl__e"
+    },
+    {
+      "id": 5,
+      "sentence": "Don't forget to # the door.",
+      "correctAnswer": "lock",
+      "alternatives": ["close", "secure"],
+      "type": "partial",
+      "visibleLetters": "l_ck"
+    },
+    {
+      "id": 6,
+      "sentence": "I need to # for my test.",
+      "correctAnswer": "study",
+      "alternatives": ["prepare", "learn"],
+      "type": "partial",
+      "visibleLetters": "st_dy"
+    },
+    {
+      "id": 7,
+      "sentence": "Can you # me carry this?",
+      "correctAnswer": "help",
+      "alternatives": ["assist", "aid"],
+      "type": "complete"
+    },
+    {
+      "id": 8,
+      "sentence": "They will # a new phone soon.",
+      "correctAnswer": "launch",
+      "alternatives": ["release", "make"],
+      "type": "partial",
+      "visibleLetters": "la_n_h"
+    },
+    {
+      "id": 9,
+      "sentence": "I must # my passport soon.",
+      "correctAnswer": "renew",
+      "alternatives": ["update", "fix"],
+      "type": "partial",
+      "visibleLetters": "r_n_w"
+    },
+    {
+      "id": 10,
+      "sentence": "Kids love to # outside.",
+      "correctAnswer": "play",
+      "alternatives": ["have fun", "run"],
+      "type": "complete"
+    },
+    {
+      "id": 11,
+      "sentence": "We should # home early today.",
+      "correctAnswer": "leave",
+      "alternatives": ["go", "start"],
+      "type": "partial",
+      "visibleLetters": "lea_e"
+    },
+    {
+      "id": 12,
+      "sentence": "The doctor will # you tomorrow.",
+      "correctAnswer": "examine",
+      "alternatives": ["check", "see"],
+      "type": "partial",
+      "visibleLetters": "ex_m_ne"
+    },
+    {
+      "id": 13,
+      "sentence": "Please # your seatbelt.",
+      "correctAnswer": "fasten",
+      "alternatives": ["close", "buckle"],
+      "type": "partial",
+      "visibleLetters": "f_st_n"
+    },
+    {
+      "id": 14,
+      "sentence": "She will # a nice drawing.",
+      "correctAnswer": "create",
+      "alternatives": ["make", "draw"],
+      "type": "partial",
+      "visibleLetters": "cr__te"
+    },
+    {
+      "id": 15,
+      "sentence": "I forgot to # my phone last night.",
+      "correctAnswer": "charge",
+      "alternatives": ["plug in", "power"],
+      "type": "partial",
+      "visibleLetters": "ch_r_e"
+    },
+    {
+      "id": 16,
+      "sentence": "We need to # harder for the game.",
+      "correctAnswer": "practice",
+      "alternatives": ["train", "work"],
+      "type": "partial",
+      "visibleLetters": "pr_ct_ce"
+    },
+    {
+      "id": 17,
+      "sentence": "She will # her ideas to the class.",
+      "correctAnswer": "present",
+      "alternatives": ["show", "tell"],
+      "type": "partial",
+      "visibleLetters": "pr_s_nt"
+    },
+    {
+      "id": 18,
+      "sentence": "The store will # good prices today.",
+      "correctAnswer": "offer",
+      "alternatives": ["give", "have"],
+      "type": "complete"
+    },
+    {
+      "id": 19,
+      "sentence": "Please # the book carefully.",
+      "correctAnswer": "read",
+      "alternatives": ["look at", "study"],
+      "type": "complete"
+    },
+    {
+      "id": 20,
+      "sentence": "I will # my bicycle tomorrow.",
+      "correctAnswer": "repair",
+      "alternatives": ["fix", "check"],
+      "type": "partial",
+      "visibleLetters": "r_p_ir"
+    },
+    {
+      "id": 21,
+      "sentence": "It will # tomorrow morning.",
+      "correctAnswer": "rain",
+      "alternatives": ["be wet", "storm"],
+      "type": "complete"
+    },
+    {
+      "id": 22,
+      "sentence": "I need to # my doctor visit.",
+      "correctAnswer": "cancel",
+      "alternatives": ["change", "stop"],
+      "type": "partial",
+      "visibleLetters": "c_n_el"
+    },
+    {
+      "id": 23,
+      "sentence": "Mom will # dinner tonight.",
+      "correctAnswer": "prepare",
+      "alternatives": ["cook", "make"],
+      "type": "partial",
+      "visibleLetters": "pr_p_re"
+    },
+    {
+      "id": 24,
+      "sentence": "Don't forget to # your books.",
+      "correctAnswer": "bring",
+      "alternatives": ["take", "carry"],
+      "type": "complete"
+    },
+    {
+      "id": 25,
+      "sentence": "The movie will # at 8 PM.",
+      "correctAnswer": "start",
+      "alternatives": ["begin", "play"],
+      "type": "partial",
+      "visibleLetters": "st_rt"
+    }
+  ]
+}
